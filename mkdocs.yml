@@ -1,0 +1,14 @@
+site_name: BCOE / REDF Curriculum
+site_url: https://example.com
+theme: readthedocs
+nav:
+  - Home: index.md
+  - Phase I - Foundational Skills: foundation.md
+  - Phase II - Digital Literacy:
+      - 'Overview':  digital_literacy.md
+      - 'Curriculum Design': format.md
+      - 'Curriculum Details': lessons.md
+  - Phase III - Technical Skills: technical.md
+
+extra_css: [extra.css]
+
