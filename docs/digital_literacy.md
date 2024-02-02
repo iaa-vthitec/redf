@@ -21,10 +21,10 @@
 ## Modules
 - The Keyboard and Typing
 - Computer Basics
+- The Internet
 - Software for Business
 - Working and Collaborating Online
 - Staying Safe in a Digital World
-- The Internet
 - Troubleshooting Basics
 
 

@@ -3,7 +3,7 @@
 <hr>
 
 ## Project Overview
-Create a trauma-informed pre-apprenticeship curriculum in order to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. 
+Create a trauma-informed pre-apprenticeship curriculum to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. 
 
 ## Objectives
 1. Develop study skills
@@ -18,9 +18,6 @@ Create a trauma-informed pre-apprenticeship curriculum in order to prepare progr
 
 <hr>
 
-## Learning Management System
-TDB
-
 ## Project File Structure
 
     mkdocs.yml                  # The configuration file
@@ -28,7 +25,6 @@ TDB
         index.md                # The project homepage
         digital_literacy.md     # Digital Literacy Curriculum overview page
         format.md               # Provides description of currciulum format
-        foundation.md           # Home page for foundation skills curriculum
         lessons.md              # Agends for digital literacy curriculum 
         technical.md            # Home page for technical curriclum (TBD)
         img/                    # Documentation image directory

@@ -1,17 +1,15 @@
 ## Curriculum Design Overview
 
-The curriculum includes two primary modes of learning, 1) instructor-led discussions with guided activities, and 2) self-study activities consisting of digital learning modules (short videos followed by quizzes on the content). After each instructor meeting, participants have self-study work to complete that  complements the current topics.
+The curriculum includes two primary modes of learning, 1) instructor-led lessons with guided activities, and 2) self-study activities consisting of digital learning modules (short videos followed by quizzes on the content). After each instructor meeting, participants have self-study work to complete that  complements the current topics.
 The curriculum that was selected for the instructor-led component is the Digital Access and Resilience in Texas (DART) curriculum, and the digital learning platform selected for the self-study activities is LinkedIn Learning. Both are described below. 
-
 
 ---
 ### Instructor-Led Lessons
 
-A search and review of existing digital literacy curriculum yielded a plethora of content. The selected is the Digital Access and Resilience in Texas (DART) curriculum that integrates beginning English language learning with foundational digital skills. The curriculum is intended to supplement existing English language instruction if the participant requires additional ESL work. The curriculum is designed with this target audience in mind, thus is appropriate for the expected use. 
+A search and review of existing digital literacy curricula yielded a plethora of content. The selected curriculum is the Digital Access and Resilience in Texas (DART) curriculum that integrates beginning English language learning with foundational digital skills. The curriculum is intended to supplement existing English language instruction if the participant requires additional ESL work. The curriculum is designed with this target audience in mind, thus is appropriate for the expected use. 
 
-Foundational English Language and Digital Literacy Skills 
-The DART curriculum provides the foundation that lower-level English language learners need to recognize and type the wide variety of characters required for most online passwords. The curriculum focuses on teaching students the skills necessary to accomplish eight major "milestones" on the way to successfully creating and logging in and out of an online account. Each of the curriculum milestones has associated prerequisite digital literacy and English language knowledge and skills that are summarized in Appendix A. 
-<button style="font-size:1em">[DART Introduction and Appendices](file/DART_V1.0_Curriculum.pdf) <i class="fa fa-file-pdf-o"></i></button>
+The DART curriculum provides the foundational English language and digital literacy skills that lower-level English language learners need to recognize and type the wide variety of characters required for most online passwords. The curriculum focuses on teaching students the skills necessary to accomplish eight major "milestones" on the way to successfully creating and logging in and out of an online account. Each of the curriculum milestones has associated prerequisite digital literacy and English language knowledge and skills that are summarized in Appendix A. 
+<button style="font-size:1em">[DART Introduction and Appendices](../file/DART_V1.0_Curriculum.pdf) <i class="fa fa-file-pdf-o"></i></button>
 
 **License**
 > *The authors chose to copyright the DART curricula under the creative commons Attribution-Non-Commercial-Share Alike CC BY-NC-SA. This gives others permission to modify the curriculum with credit given to the authors for non-commercial use. For additional information on the curriculum's copyright, please read the [license deed](https://creativecommons.org/licenses/by-nc-sa/4.0/) and the [legal code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).*
@@ -30,14 +28,16 @@ The DART curriculum provides the foundation that lower-level English language le
 using the browser back arrow.
 - Creating a compliant username and complex password that is easy to remember for a Gmail
 account.
-- Logging in and out of a Gmail account using a compliant username and complex password.
+- Logging in and out of an account using a compliant username and complex password.
 - Identifying and avoiding opening links in suspect emails and text messages.
 - Identifying basic troubleshooting techniques.
 
 
 ---
-### Digital Learning Modules (self-study activities)
-<img src="/img/LinkedIn_Learning_logo.png">
+### Digital Learning Modules
+***Self-study activities***
+
+<img src="../img/LinkedIn_Learning_logo.png">
 
 The digital learning platform selected for the self-study component is LinkedIn Learning. It is recommended to purchase account access to this platform for participants. However, if the budget does not permit this, there are digital literacy videos that Microsoft produced on LinkedIn Learning that are available without a subscription. I’ve used this platform for many years and appreciate the breadth and depth of content available on a range of topics (i.e., the subscription can be leveraged for other phases of the curriculum). 
 
@@ -64,6 +64,8 @@ Identify the hand position used when typing using the numeric keypad.
 > *Example Video:* 
 > <video width="600" controls> <source src="../video/03-types-of-personal-computers.mp4" type="video/mp4">Your browser does not support the video tag. </video> 
 
+> *Example Quiz:*
+> <img src="../img/quiz.png" width="600">
 
 **3. Working and Collaborating Online**
 
@@ -75,6 +77,6 @@ Identify the hand position used when typing using the numeric keypad.
 **Going further:**
 Participants that want to complete extra modules can earn a **[Digital Literacy and Productivity Learning Pathway Certificate of Completion from LinkedIn Learning](https://www.linkedin.com/learning/paths/digital-literacy-and-productivity-learning-pathway)** (add a credential to the resume!). 
 
-<img src="/img/earn_certificate.png">
-<img src="/img/certificate.png">
+<img src="../img/earn_certificate.png">
+<img src="../img/certificate.png">
 
