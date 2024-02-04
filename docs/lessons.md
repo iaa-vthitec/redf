@@ -2,7 +2,7 @@
 
 The curriculum includes two primary modes of learning, 1) instructor-led discussions with guided exercises (referred here as "Lessons"), and 2) self-study activities consisting of digital learning modules (short videos followed by quizzes on the content). After each instructor meeting, participants have self-study work to complete that supplements the current topics.
 
-You can view the <button style="font-size:1em">[Master Topic List Spreadsheet](../file/REDF_digital_literacy.xlsx) <i class="fa fa-file-excel-o"></i></button>
+You can view the <button style="font-size:1em">[Master Topic List Spreadsheet ](../file/REDF_digital_literacy.xlsx)<i class="fa fa-file-excel-o"></i></button>
 
 
 ---
