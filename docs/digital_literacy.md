@@ -25,6 +25,7 @@
 - Software for Business
 - Working and Collaborating Online
 - Staying Safe in a Digital World
+- Using a Smartphone
 - Troubleshooting Basics
 
 

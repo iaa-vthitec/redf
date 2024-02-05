@@ -137,14 +137,55 @@ You can view the
                     <td>1</td>
                     <td>Welcome</td>
                     <td>Orientation materials</td>
-                    <td>TBD</td>
+                    <td>Enrollment documents - TBD</td>
                     <td>0:30</td>
                 </tr>
                 <tr>
                     <td>2</td>
+                    <td>Hardware</td>
+                    <td>
+                        <ul>
+                            <li>How Computers Work</li>
+                            <li>Memory</li>
+                            <li>Storage Devices</li>
+                            <li>Motherboards</li>
+                            <li>Power</li>
+                            <li>Multifunctional Devices</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="../file/FILE" target="_blank"><i
+                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> How
+                                Computers Work - 1</a></li>
+                            <li><a href="https://youtu.be/mCq8-xTH7jA?si=k-Z28XQ7DPiz7c5n" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> How
+                                Computers Work - 2</a></li>
+                            <li><a href="https://youtu.be/92TaQRBwPSs?si=HevSLJpWGRd3KKe_" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> What
+                                Do Computers Do?</a></li>
+                            <li><a href="https://youtu.be/USCBCmwMCDA?si=5muhCiQMiwhEU4WS" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Binary & Data</a></li>
+                            <li><a href="https://youtu.be/ZoqMiFKspAA?si=VOVjd4kyhSPA8ITB" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Circuits & Logic</a></li>
+                            <li><a href="https://youtu.be/DKGZlaPlVLY?si=JNgSwEgTKbEFigcn" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> CPU, Memory, I/O</a></li>
+                            <li><a href="https://youtu.be/xnyFYiK2rSY?si=0Wub3T0MdM94mp_2" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Hardware & Software</a></li>
+                        </ul>
+
+
+                    </td>
+                    <td>1:00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
                     <td>Networking</td>
                     <td>
                         <ul>
+                            <li>How Networks Work</li>
                             <li>Network Devices</li>
                             <li>Wireless Network Standards</li>
                             <li>Network Services</li>
@@ -161,34 +202,6 @@ You can view the
                             <li>Handout 1</li>
                             <li>Handout 2</li>
                             <li>Assessment</li>
-                        </ul>
-                    </td>
-                    <td>1:00</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Hardware</td>
-                    <td>
-                        <ul>
-                            <li>Memory</li>
-                            <li>Storage Devices</li>
-                            <li>Motherboards</li>
-                            <li>Power</li>
-                            <li>Multifunctional Devices</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li><a href="../file/FILE">Lesson Presentation</a></li>
-                            <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank"><i
-                                    class="fa fa-video-camera" aria-hidden="true"></i> How
-                                Computers Work - 1</a></li>
-                            <li><a href="https://youtu.be/mCq8-xTH7jA?si=k-Z28XQ7DPiz7c5n" target="_blank"><i
-                                    class="fa fa-video-camera" aria-hidden="true"></i> How
-                                Computers Work - 2</a></li>
-                            <li><a href="https://youtu.be/92TaQRBwPSs?si=HevSLJpWGRd3KKe_" target="_blank"><i
-                                    class="fa fa-video-camera" aria-hidden="true"></i> What
-                                do computers do?</a></li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -491,8 +504,8 @@ You can view the
                     <td>
                         <ul>
                             <li><a href="../file/FILE">Lesson Presentation</a></li>
-                            <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank">Video: How
-                                Computers Work</a></li>
+                            <li><a href="https://youtu.be/AuYNXgO_f3Y?si=BKaZTxAWK7WEpn8M" target="_blank">Video:
+                                Cybersecurity & Crime</a></li>
                             <li>Handout 2</li>
                             <li>Assessment</li>
                         </ul>
@@ -619,7 +632,7 @@ You can view the
     </div>
     <hr class="thick">
     <h3>Self-Study</h3>
-    <p class="indent-paragraph">Participants should complete the following before the next lesson:<br>
+    <p class="indent-paragraph">Participants should complete the following:<br>
     <ol class="indent-paragraph">
         <li><em>LinkedIn Learning</em>: <strong>CompTIA A+ Core 1 (220-1101) Cert Prep: 8 Portable Computing</strong>
         </li>

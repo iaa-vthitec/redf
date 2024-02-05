@@ -10,8 +10,8 @@
 ---
 ## Modules
 
-- Computer Networks
 - Computer Hardware
+- Computer Networks
 - Virtualization and Cloud Computing
 - Hardware and Networking Troubleshooting
 - Operating Systems

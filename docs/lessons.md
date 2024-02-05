@@ -1,8 +1,12 @@
 ## Curriculum Details
 
-The curriculum includes two primary modes of learning, 1) instructor-led discussions with guided exercises (referred here as "Lessons"), and 2) self-study activities consisting of digital learning modules (short videos followed by quizzes on the content). After each instructor meeting, participants have self-study work to complete that supplements the current topics.
+The curriculum includes two primary modes of learning, 1) instructor-led discussions with guided exercises (referred
+here as "Lessons"), and 2) self-study activities consisting of digital learning modules (short videos followed by
+quizzes on the content). After each instructor meeting, participants have self-study work to complete that supplements
+the current topics.
 
-You can view the <button style="font-size:1em">[Master Topic List Spreadsheet ](../file/REDF_digital_literacy.xlsx)<i class="fa fa-file-excel-o"></i></button>
+You can view
+the <button style="font-size:1em">[Master Topic List Spreadsheet ](../file/REDF_digital_literacy.xlsx)<i class="fa fa-file-excel-o"></i></button>
 
 
 ---
@@ -600,6 +604,18 @@ their next tasks (see 'Self-Study' section below for assignment) in preparation 
     </tr>
     <tr>
         <td>1</td>
+        <td>Using a Smartphone</td>
+        <td>Computer Problems</td>
+        <td><ul>
+                <li><a href="https://ecampusontario.pressbooks.pub/dcworkbook/chapter/smartphones/" target="_blank"><i
+                                    class="fa fa-external-link" aria-hidden="true"></i> Lesson Presentation - 1</a></li>
+                <li><a href="https://edu.gcfglobal.org/en/topics/smartphonesandtablets/" target="_blank"><i
+                                    class="fa fa-external-link" aria-hidden="true"></i> Lesson Presentation - 2</a></li>
+            </ul></td>
+        <td>1:00</td>
+    </tr>
+    <tr>
+        <td>2</td>
         <td>Troubleshooting Basics</td>
         <td>Computer Problems</td>
         <td><ul>
@@ -618,7 +634,7 @@ their next tasks (see 'Self-Study' section below for assignment) in preparation 
     <p class="indent-paragraph">
     Participants should complete following before the next meeting:<br>
     <ol class="indent-paragraph">
-        <li><em>LinkedIn Learning</em>: No new assignment. Use this time to catch up any remaining modules, or continue watching additional modules!</li>
+        <li><em>LinkedIn Learning</em>: Android phone and tablet essential training</li>
     </ol>
     </p>
 </details>
