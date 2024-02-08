@@ -89,18 +89,18 @@ You can view the
                 they will be learning the technical skills ahead. Videos and discussions regarding topics such as 'How
                 computers work?' and the relationship between computer hardware and software will help provide context
                 and excitement for the technical material that follows. Learning content produced by Code.org is
-                targeted
-                at getting people interested in learning about computers and software development. A selection of their
-                videos covered topics relevant to this curriculum, and are relatively short and of professional
-                quality.</p>
+                designed to get people interested in learning about computers and software development. A selection of their
+                videos covered topics relevant to this curriculum, and are fairly short and of professional
+                quality. The instructor can play the videos and engage in discussions after each.</p>
             <p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"
+            <p><em>Example Video:<br></em>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-
-            </p>
+                        allowfullscreen></iframe></p>
             <p class="indent-paragraph">
+            <hr>
+            <h3>Lesson Plan</h3>
             <ol>
                 <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
                 <li>Provide students with an overview of the Technical Skills curriculum, including the modules that
@@ -108,20 +108,20 @@ You can view the
                     online digital learning modules (e.g., the LinkedIn Learning platform).
                 </li>
                 <li>Make sure participants are settled in, answer any questions, and transition to the first lesson.
-                    Review the lesson presentation for 'How Computer Networks Works' by clicking the 'Lesson
+                    Review the lesson presentation for 'Computer Hardware' by clicking the 'Lesson
                     Presentation' (link located on row #2 in the table below).
                 </li>
-                <li>Provide students with 'Handout 1' and project the diagram. Students will identify
-                    common network devices such as modems, routers, and switches.
+                <li>
+                    Play linked videos and engage in group discussion after each.
                 </li>
-                <li>After the discussion on 'Handout 2', administer a short quiz related to the
-                    network diagram covered earlier.
+                <li>Next, move on to the topic of Computer Networking. Review the lesson presentation for
+                    'How Computer Networks Work' by clicking the 'Lesson Presentation' (link located on row #3 in the table below)
                 </li>
                 <li>Explain the concept of 'Self-Study' (i.e., work that participants will computer prior to the next
                     meeting) and assign their first LinkedIn Learning modules in preparation
                     for next session.
                 </li>
-                <li>Check in with students before the end of the lesson to gauge how they are feeling at the end of
+                <li>Check in with students before the end of the session to gauge how they are feeling at the end of
                     their first day. What questions do you have?
                 </li>
             </ol>
@@ -155,7 +155,7 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/FILE" target="_blank"><i
+                            <li><a href="../file/Technical_Skills_Files/presentations/Computer_Hardware.pdf" target="_blank"><i
                                     class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
                             <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank"><i
                                     class="fa fa-video-camera" aria-hidden="true"></i> How
@@ -175,8 +175,6 @@ You can view the
                             <li><a href="https://youtu.be/xnyFYiK2rSY?si=0Wub3T0MdM94mp_2" target="_blank"><i
                                     class="fa fa-video-camera" aria-hidden="true"></i> Hardware & Software</a></li>
                         </ul>
-
-
                     </td>
                     <td>1:00</td>
                 </tr>
@@ -198,10 +196,20 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/<FILE>">Lesson Presentation</a></li>
-                            <li>Handout 1</li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="../file/Technical_Skills_Files/presentations/Computer_Networks.pdf" target="_blank"><i
+                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li><a href="https://youtu.be/Dxcc6ycZ73M?si=7vfpuhqbMWKwmbUj" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> What is the Internet?</a></li>
+                            <li><a href="https://youtu.be/ZhEf7e4kopM?si=Zw4vsvZTH6XPjQx2" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Wires, Cables & Wifi</a></li>
+                            <li><a href="https://youtu.be/5o8CwafCxnU?si=3KDGiP25ceK43TBf" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> IP Addresses & DNS</a></li>
+                            <li><a href="https://youtu.be/AYdF7b3nMto?si=GTfn3eJt-vhaR5K-" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Packets & Routing</a></li>
+                            <li><a href="https://youtu.be/kBXQZMmiA4s?si=VdkBXJRnJLbbQdqW" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> HTTP & HTML</a></li>
+                            <li><a href="https://youtu.be/LVV_93mBfSU?si=YjSpGEDvVA23quV1" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> How Search Works</a></li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -213,9 +221,10 @@ You can view the
     <h3>Self-Study</h3>
     <p class="indent-paragraph">Participants should complete the following before the next lesson:<br>
     <ol class="indent-paragraph">
-        <li><em>LinkedIn Learning</em>: <strong>Networking Foundations: Networking Basics</strong></li>
         <li><em>LinkedIn Learning</em>: <strong>Computer Components and Peripherals for IT Technicians</strong></li>
+        <li><em>LinkedIn Learning</em>: <strong>Networking Foundations: Networking Basics</strong></li>
     </ol>
+    <p class="indent-paragraph">Section/Module Quizzes should be completed after watching the topic videos.
 </details>
 <!-- END AGENDA #1 -->
 
@@ -235,13 +244,6 @@ You can view the
                 at getting people interested in learning about computers and software development. A selection of their
                 videos covered topics relevant to this curriculum, and are relatively short and of professional
                 quality.</p>
-            <p>
-                <!--                <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"-->
-                <!--                        title="YouTube video player" frameborder="0"-->
-                <!--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
-                <!--                        allowfullscreen></iframe>-->
-
-            </p>
             <p class="indent-paragraph">
             <ol>
                 <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
@@ -286,10 +288,9 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/<FILE>">Lesson Presentation</a></li>
-                            <li>Handout 1</li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="../file/Technical_Skills_Files/presentations/Virtualization_and_Cloud_Computing.pdf" target="_blank"><i
+                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li>After discussion, begin <br>LinkedIn Learning modules</li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -304,6 +305,7 @@ You can view the
         <li><em>LinkedIn Learning</em>: <strong>Learning Cloud Computing: Core Concepts</strong></li>
         <li><em>LinkedIn Learning</em>: <strong>Learning Virtualization</strong></li>
     </ol>
+    <p class="indent-paragraph">Section/Module Quizzes should be completed after watching the topic videos.
 </details>
 <!-- END AGENDA #2 -->
 
@@ -314,13 +316,6 @@ You can view the
         <h3>Lesson Overview</h3>
         <div class="container">
             <p>This first lesson begins any enrollment and orientation process steps necessary to begin. Next, an </p>
-            <p>
-                <!--                <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"-->
-                <!--                        title="YouTube video player" frameborder="0"-->
-                <!--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
-                <!--                        allowfullscreen></iframe>-->
-
-            </p>
             <p class="indent-paragraph">
             <ol>
                 <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
@@ -365,11 +360,8 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/FILE">Lesson Presentation</a></li>
-                            <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank">Video: How
-                                Computers Work</a></li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="../file/Technical_Skills_Files/presentations/Troubleshooting.pdf" target="_blank"><i
+                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -393,11 +385,9 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/FILE">Lesson Presentation</a></li>
-                            <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank">Video: How
-                                Computers Work</a></li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="../file/Technical_Skills_Files/presentations/Operating_Systems.pdf" target="_blank"><i
+                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li>After discussion, begin <br>LinkedIn Learning modules</li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -414,6 +404,7 @@ You can view the
         </li>
         <li><em>LinkedIn Learning</em>: <strong>Cert Prep: LPI Linux Essentials (010-160)</strong></li>
     </ol>
+    <p class="indent-paragraph">Section/Module Quizzes should be completed after watching the topic videos.
 </details>
 <!-- END AGENDA #3 -->
 
@@ -424,13 +415,6 @@ You can view the
         <h3>Lesson Overview</h3>
         <div class="container">
             <p>This first lesson begins any enrollment and orientation process steps necessary to begin. Next, an </p>
-            <p>
-                <!--                <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"-->
-                <!--                        title="YouTube video player" frameborder="0"-->
-                <!--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
-                <!--                        allowfullscreen></iframe>-->
-
-            </p>
             <p class="indent-paragraph">
             <ol>
                 <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
@@ -482,10 +466,18 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/<FILE>">Lesson Presentation</a></li>
-                            <li>Handout 1</li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="../file/Technical_Skills_Files/presentations/Cybersecurity.pdf" target="_blank"><i
+                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li><a href="https://youtu.be/4J6FNRft9pQ?si=GyuWetwrKaEYY8y3" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> How Not To Get Hacked</a></li>
+                            <li><a href="https://youtu.be/qLMIK5YVgfA?si=Z1MibmYx_DgpXybv" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Passwords</a></li>
+                            <li><a href="https://youtu.be/l9mEd8LOMl8?si=xx8-oL9omY2D92O-" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Authentication & Device Locks</a></li>
+                            <li><a href="https://youtu.be/YfiM8rXg3ug?si=PPH5N6XQkJwGrhlj" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Phishing</a></li>
+                            <li><a href="https://youtu.be/E3imvkP3IC0?si=gDbrWn3dmb0CMwgq" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Websites & Wifi</a></li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -497,17 +489,13 @@ You can view the
                         <ul>
                             <li>Troubleshooting Security issues</li>
                             <li>Removing Malware</li>
-                            <li>Troubleshooting Mobile Devices</li>
-                            <li>Troubleshooting Mobile Device Security</li>
                         </ul>
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/FILE">Lesson Presentation</a></li>
-                            <li><a href="https://youtu.be/AuYNXgO_f3Y?si=BKaZTxAWK7WEpn8M" target="_blank">Video:
-                                Cybersecurity & Crime</a></li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="../file/Technical_Skills_Files/presentations/Software_Troubleshooting.pdf" target="_blank"><i
+                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li>After discussion, begin <br>LinkedIn Learning modules</li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -522,6 +510,7 @@ You can view the
         <li><em>LinkedIn Learning</em>: <strong>IT Security Foundations: Core Concepts</strong></li>
         <li><em>LinkedIn Learning</em>: <strong>IT Help Desk for Beginners</strong></li>
     </ol>
+    <p class="indent-paragraph">Section/Module Quizzes should be completed after watching the topic videos.
 </details>
 <!-- END AGENDA #4 -->
 
@@ -532,13 +521,7 @@ You can view the
         <h3>Lesson Overview</h3>
         <div class="container">
             <p>This first lesson begins any enrollment and orientation process steps necessary to begin. Next, an </p>
-            <p>
-                <!--                <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"-->
-                <!--                        title="YouTube video player" frameborder="0"-->
-                <!--                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
-                <!--                        allowfullscreen></iframe>-->
 
-            </p>
             <p class="indent-paragraph">
             <ol>
                 <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
@@ -583,7 +566,11 @@ You can view the
                             <li>Safety Procedures</li>
                         </ul>
                     </td>
-                    <td>TBD</td>
+                    <td><ul><li><a href="https://www.suptask.com/blog/help-desk-troubleshooting-guide" target="_blank"><i
+                                    class="fa fa-external-link" aria-hidden="true"></i> IT Helpdesk Guide</a></li>
+                        <li><a href="https://www.alert-software.com/blog/the-most-common-helpdesk-problems-and-how-to-solve-them" target="_blank"><i
+                                    class="fa fa-external-link" aria-hidden="true"></i> Common Helpdesk Problems</a></li>
+                       </ul></td>
                     <td>0:30</td>
                 </tr>
                 <tr>
@@ -598,10 +585,7 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/<FILE>">Lesson Presentation</a></li>
-                            <li>Handout 1</li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="">TBD</a></li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -614,15 +598,14 @@ You can view the
                             <li>Introduction to Mobile Devices</li>
                             <li>Mobile Device Configuration</li>
                             <li>Mobile Device Connectivity</li>
+                            <li>Troubleshooting Mobile Devices</li>
+                            <li>Troubleshooting Mobile Device Security</li>
                         </ul>
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/FILE">Lesson Presentation</a></li>
-                            <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank">Video: How
-                                Computers Work</a></li>
-                            <li>Handout 2</li>
-                            <li>Assessment</li>
+                            <li><a href="">Lesson Presentation</a></li>
+                            <li>After discussion, begin <br>LinkedIn Learning modules</li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -637,6 +620,7 @@ You can view the
         <li><em>LinkedIn Learning</em>: <strong>CompTIA A+ Core 1 (220-1101) Cert Prep: 8 Portable Computing</strong>
         </li>
     </ol>
+    <p class="indent-paragraph">Section/Module Quizzes should be completed after watching the topic videos.
 </details>
 <!-- END AGENDA #5 -->
 <hr>
