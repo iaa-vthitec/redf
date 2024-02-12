@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.34" end="00:00:01.840">What is an operating system?</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:02.40" end="00:00:03.730">Computers are tools that allow</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:03.930" end="00:00:05.690">us to get things
+done electronically.</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:05.890" end="00:00:07.815">To use a computer for our tasks,</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:08.15" end="00:00:09.160">we need to be able to tell</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:09.360" end="00:00:11.320">the computer what
+we want it to do.</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:11.520" end="00:00:13.710">Operating systems
+make this possible.</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:13.910" end="00:00:16.800">The operating system,
+sometimes called the OS,</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:17.00" end="00:00:19.880">is the main piece of software
+that runs in a computer.</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:20.80" end="00:00:21.555">The operating system manages</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:21.755" end="00:00:24.820">all other software and hardware
+parts of the computer,</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:25.20" end="00:00:26.250">and provides a way for you</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:26.450" end="00:00:28.20">to communicate with the computer.</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:28.220" end="00:00:30.570">Modern operating systems
+are designed with</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:30.770" end="00:00:33.20">graphical interfaces
+containing icons,</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:33.220" end="00:00:34.830">buttons, and texts that make</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:35.30" end="00:00:37.135">it easy for people
+to use the computer.</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:37.335" end="00:00:39.240">You can even customize
+the look and</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:39.440" end="00:00:41.190">feel of your operating system,</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:41.390" end="00:00:44.265">so that it's easier for you
+to use in the way you'd like.</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:44.465" end="00:00:45.930">Consider that you want to use</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:46.130" end="00:00:48.230">your computer to create
+a text document.</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:48.430" end="00:00:50.640">You can use the graphical
+menus and buttons</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:50.840" end="00:00:53.400">within the operating system
+to create the document,</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:00:53.600" end="00:00:56.280">use the keyboard to enter
+text into your document,</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:00:56.480" end="00:00:58.680">and tell the operating system
+to save your file.</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:00:58.880" end="00:01:00.840">The operating system
+handles all of</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:01.40" end="00:01:03.150">the physical tasks
+behind the scenes,</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:03.350" end="00:01:05.685">like keeping track of what
+you typed on the keyboard,</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:05.885" end="00:01:07.440">controlling the processor, and</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:07.640" end="00:01:09.415">saving your information
+to the hard drive.</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:09.615" end="00:01:10.950">There are different types of</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:11.150" end="00:01:13.680">operating systems for
+different types of computers.</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:13.880" end="00:01:17.420">Many PCs run the Microsoft
+Windows operating system,</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:17.620" end="00:01:20.425">while Mac computers
+run the Mac OS system,</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:20.625" end="00:01:23.445">and some computers run
+the Linux operating system.</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:23.645" end="00:01:26.190">Mobile devices run
+different operating systems</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:26.390" end="00:01:28.530">than laptops and
+desktop computers.</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:28.730" end="00:01:30.225">When you purchase a computer,</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:30.425" end="00:01:31.410">the operating system for</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:31.610" end="00:01:34.105">that device is usually
+pre-installed for you.</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:34.305" end="00:01:36.540">Operating systems make
+it possible for us</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:01:36.740" end="00:02:06.740">to operate computers
+and get things done.</p>
+    </div>
+  </body>
+</tt>

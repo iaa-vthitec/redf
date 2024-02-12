@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.34" end="00:00:03.700">There are a variety of
+accessibility features</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:03.900" end="00:00:05.530">and tools that you
+can use with Windows</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:05.730" end="00:00:07.749">10 to make it easier
+to use your computer,</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:07.949" end="00:00:09.160">if you have certain disabilities</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:09.360" end="00:00:11.335">or accessibility challenges.</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:11.535" end="00:00:13.599">To use many of the accessibility</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:13.799" end="00:00:15.340">features that come
+with your device,</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:15.540" end="00:00:17.605">you often need to
+enable them first.</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:17.805" end="00:00:19.390">You can access many of the</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:19.590" end="00:00:21.70">Windows 10 accessibility
+features in</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:21.270" end="00:00:24.565">the Settings app under
+''Ease of Access''.</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:24.765" end="00:00:27.790">First, we will cover
+Vision settings.</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:27.990" end="00:00:30.510">For your display you can change</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:30.710" end="00:00:33.540">the size of the application
+and texts you're viewing.</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:33.740" end="00:00:36.650">To do so, click
+the drop-down menu here,</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:36.850" end="00:00:38.820">and select the percentage
+that suits you.</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:39.20" end="00:00:40.530">You can also change
+the brightness</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:40.730" end="00:00:43.790">of the display and
+make it brighter.</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:43.990" end="00:00:46.820">Moving down to cursor
+and pointer size,</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:47.20" end="00:00:50.100">Windows 10 gives you the ability
+to change the size and</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:50.300" end="00:00:54.00">color of the cursor to make
+it easier to see and use.</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:54.200" end="00:00:56.280">Here, you can also
+change the width of</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:56.480" end="00:00:59.700">the cursor to make it easier
+to find while typing.</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:59.900" end="00:01:02.495">Next is Magnifier.</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:01:02.695" end="00:01:05.70">Enable the magnifier
+feature to zoom in on</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:01:05.270" end="00:01:08.990">parts of your screen as
+you use your computer.</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:09.190" end="00:01:12.480">There are also Hearing settings.</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:12.680" end="00:01:14.550">On your audio, you can set </p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:14.750" end="00:01:16.865">alerts to where your
+alerted visually.</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:17.65" end="00:01:19.955">This prevents you from
+missing an audible alert.</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:20.155" end="00:01:22.200">Under interaction, there are</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:22.400" end="00:01:24.410">several settings
+based on your input,</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:24.610" end="00:01:28.745">including speech,
+keyboard, and mouse.</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:28.945" end="00:01:30.245">In the keyboard settings,</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:30.445" end="00:01:32.940">there is an option to use
+an On-Screen Keyboard,</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:33.140" end="00:01:34.320">which is very useful for</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:34.520" end="00:01:36.765">devices without
+a physical keyboard.</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:36.965" end="00:01:39.00">These are just a selection of</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:39.200" end="00:01:40.650">the many features of Windows and</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:40.850" end="00:01:42.390">other operating systems
+that improve</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:42.590" end="00:01:43.920">accessibility and allow you to</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:44.120" end="00:02:14.120">use your computer
+more effectively.</p>
+    </div>
+  </body>
+</tt>

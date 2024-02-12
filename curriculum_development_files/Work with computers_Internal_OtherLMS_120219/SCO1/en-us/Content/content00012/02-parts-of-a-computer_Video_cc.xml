@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.34" end="00:00:01.480">Let's take a look at</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:01.680" end="00:00:04.560">the primary hardware components
+that make up a computer.</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:04.760" end="00:00:06.510">This includes the base unit,</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:06.710" end="00:00:09.985">the monitor, the speakers, the
+keyboard, and the mouse.</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:10.185" end="00:00:12.400">Each part serves
+a purpose that allows us</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:12.600" end="00:00:14.755">to operate and interact
+with a computer.</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:14.955" end="00:00:17.745">The base unit holds
+the brains of the computer,</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:17.945" end="00:00:19.480">the physical parts that process</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:19.680" end="00:00:21.840">information and make
+the computer function.</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:22.40" end="00:00:23.970">It contains important
+components like</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:24.170" end="00:00:26.380">the CPU or Central
+Processing Unit,</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:26.580" end="00:00:28.295">the motherboard, the hard disk,</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:28.495" end="00:00:29.635">and the memory units.</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:29.835" end="00:00:32.610">It also contains ports
+that allow you to plug</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:32.810" end="00:00:35.520">additional components or
+devices into your computer,</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:35.720" end="00:00:37.455">like headphones or a printer.</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:37.655" end="00:00:40.769">The monitor, sometimes
+referred to as the display,</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:40.969" end="00:00:42.00">is the part of the computer that</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:42.200" end="00:00:43.940">displays output
+for users to view,</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:44.140" end="00:00:45.675">like graphics and text.</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:45.875" end="00:00:47.490">In some cases, the monitor is</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:47.690" end="00:00:48.660">a separate piece that you must</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:48.860" end="00:00:50.315">physically plug
+into your computer.</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:50.515" end="00:00:51.840">In other cases, the monitor is</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:00:52.40" end="00:00:53.700">built in to the computing device.</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:00:53.900" end="00:00:55.590">The speakers allow
+you to listen to</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:00:55.790" end="00:00:57.560">sound that comes
+from the computer.</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:00:57.760" end="00:01:00.625">In some cases, the speakers
+are built into the computer.</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:00.825" end="00:01:02.610">In other cases, you
+must physically connect</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:02.810" end="00:01:05.490">speakers to your computer
+in order to hear audio.</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:05.690" end="00:01:07.560">The keyboard is an input device</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:07.760" end="00:01:09.660">used to interact with a computer.</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:09.860" end="00:01:11.720">Using a keyboard, you
+can type letters,</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:11.920" end="00:01:13.470">numbers, and characters that</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:13.670" end="00:01:15.510">will be processed
+by the computer.</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:15.710" end="00:01:18.660">Keyboards can be physical and
+attached to the computer,</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:18.860" end="00:01:19.770">or they can be virtual,</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:19.970" end="00:01:21.630">where you use a touch display to</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:21.830" end="00:01:24.510">type by directly touching
+the screen of the monitor.</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:24.710" end="00:01:26.970">The mouse is an
+important device used to</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:27.170" end="00:01:29.560">interact with items
+displayed on the screen.</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:29.760" end="00:01:31.35">When you move the mouse, a</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:01:31.235" end="00:01:32.850">pointer on the screen also moves,</p>
+      <p xml:id="subtitle44" ttm:role="caption" begin="00:01:33.50" end="00:01:34.720">allowing you to
+operate the computer.</p>
+      <p xml:id="subtitle45" ttm:role="caption" begin="00:01:34.920" end="00:01:37.560">You can plug a physical mouse
+into your computer or use</p>
+      <p xml:id="subtitle46" ttm:role="caption" begin="00:01:37.760" end="00:01:39.60">the touch pad that is built into</p>
+      <p xml:id="subtitle47" ttm:role="caption" begin="00:01:39.260" end="00:01:41.565">some computers and provides
+the same function.</p>
+      <p xml:id="subtitle48" ttm:role="caption" begin="00:01:41.765" end="00:01:43.740">All of these parts may
+not look the same for</p>
+      <p xml:id="subtitle49" ttm:role="caption" begin="00:01:43.940" end="00:01:45.150">every type of computer but</p>
+      <p xml:id="subtitle50" ttm:role="caption" begin="00:01:45.350" end="00:02:15.350">they still provide
+the same functions.</p>
+    </div>
+  </body>
+</tt>

@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="../../../Player/css/pagestyles.css" type="text/css" />
+<link rel="stylesheet" href="../../../Custom/css/pagestyles.css" type="text/css" />
+<script src="../../../Player/js/libs/jquery-1.10.2.min.js" type="text/javascript"></script>
+<style>
+	html, body {background-color:rgb(233,233,233)}
+	.header {background-color:white;}
+	.main, .next, .main-content {background-color:white;min-height:25vh}
+	.footer, .page-navigation {background-color:rgb(233,233,233)}
+    .badge-warning {color:#000000; background-color:#ffb900 !important;}
+    .btn-primary {background-color:#0078d4 !important;}
+    .badge-success {background-color:#107c10 !important;}
+    .badge-secondary {background-color:#505050 !important;}
+</style>
+
+<script>
+	$(document).ready(function () {
+		$('.page-header').append(parent.getHeader());
+	//	$('.page-navigation').append(parent.getPageNavigation())
+		$('.page-footer').append(parent.getFooter());
+
+	//	parent.getPageNavigation($('.page-navigation'));
+	//	parent.getPageContinueButton($('.next-up'))
+
+		$('.page-title').text(parent.course.getCurrentPage().name)
+		var time = parent.course.getCurrentPage().time
+		$('.page-duration').text( result = (time == 1) ? time + " minute": time + " minutes")
+		parent.getModuleProgress($('.modules'))
+        $('.course-status').text(parent.getCourseStatus())
+        if (parent.course.scormState.isComplete == true) {
+            $('.course-status').removeClass('badge-warning').addClass('badge-success');
+        }
+        else {
+
+        }
+	})
+</script>
+<style>
+	.modules .apscard {border:1px solid gray;margin-bottom:20px}
+
+    .hint {
+        position: relative;
+        display: inline-block;
+    }
+
+        .hint .hinttext {
+            visibility: hidden;
+            width: 400px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+            bottom: 0%;
+            left: 150%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+
+        .hint:hover .hinttext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+</style>
+</head>
+<body onkeydown="return parent.doKeyDown(event);" >
+
+<div class="Content container">
+	<div class="row page-header" role="banner"></div>
+	<!--<div class="row page-navigation" role="navigation" aria-label="page navigation"></div> -->
+	<div class="row main-content p-4 " >
+		<div class="col-12 page-status"><span class="badge badge-warning float-right p-2 course-status"></span></div>
+        <div class="main col-12 embed-responsive p-4" role="main" aria-label="page content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="../images/Work with Computers-work-with-computers.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="col-10">
+                        <h1 class="page-title">Work with computers</h1>
+                        <p class="text-muted ">1 hour 9 minutes</p>
+                        <p class="description">
+                            This learning path will introduce you to the different parts and types of the computer and their functions. You will also learn the difference between operating systems and applications and their functions. Peripherals and portable storage devices will be discussed as well.
+                        </p>
+                        <p><strong>To complete this course and receive your certificate, you must visit every page of this course.</strong></p>
+                        <div class="hint" style="width:145px; height:30px; background-color:#0078d4; border-radius:.2rem;" id="downloadTranscript" aria-label="Download transcript"><a href="../Transcript_Work-with-computers.pdf" target="_blank" style="width:100%;height:100%;color:#ffffff;padding:.25rem .5rem .25rem .5rem;font-size:.87rem;line-height:1.5; text-align:center;">Download transcript </a><span class="hinttext">To download, right-click and select <strong>Save target as...</strong></span></div>
+                        <br /><br />
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!--Put custom page content here.-->
+
+            <div class="modules"></div>
+            
+                </div>
+                <!--
+        <div class="next-up col-12">
+            <hr aria-hidden="true" />
+            <p><strong><span class="">Next unit: </span><span class="next-page-name"></span></strong></p>
+        </div>
+        -->
+            </div>
+            <div class="row page-footer" role="contentinfo">
+
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="../../../Player/css/pagestyles.css" type="text/css" />
+<link rel="stylesheet" href="../../../Custom/css/pagestyles.css" type="text/css" />
+<script src="../../../Player/js/libs/jquery-1.10.2.min.js" type="text/javascript"></script>
+<style>
+	html, body {background-color:rgb(233,233,233)}
+	.header {background-color:white;}
+	.main, .next, .main-content {background-color:white;min-height:25vh}
+	.footer, .page-navigation {background-color:rgb(233,233,233)}
+	legend {font-size:1.25em}
+	.correct {color: white;background-color:green !important;font-size:1em}
+	.incorrect{color:white;background-color:red;font-size:1em}
+</style>
+
+<script>
+	$(document).ready(function () {
+		$('.page-header').append(parent.getHeader());
+	//	$('.page-navigation').append(parent.getPageNavigation())
+		$('.page-footer').append(parent.getFooter());
+
+		parent.getPageNavigation($('.page-navigation'));
+		parent.getPageContinueButton($('.next-up'))
+		
+		$('.page-title').text(parent.course.getCurrentPage().name)
+		var time = parent.course.getCurrentPage().time
+        $('.page-duration').text(result = (time == 1) ? time + " minute" : time + " minutes")
+
+        if (parent._isSelfHost) {
+            //ditch the iframe
+            $('iframe.embed-responsive-item').hide();
+
+            //add the video
+            var thisPage = parent.course.getCurrentPage();
+            //console.log('Page = ' + thisPage.name);
+            var thisVideo = thisPage.videoFiles[0].FileName;
+            //console.log(thisVideo);
+
+            $('.embed-responsive').append('<div class="embed-responsive-item" id="myvideo" />')
+            parent.courseController.showVideo(thisVideo, 'myvideo');
+        }
+	})
+</script>
+</head>
+<body onkeydown="return parent.doKeyDown(event);" >
+
+<div class="Content container">
+	<div class="row page-header"></div>
+	<div class="row page-navigation"></div>
+	<div class="row main-content p-4">
+		<!--<div class="col-12 page-status"><span class="badge badge-danger float-right p-2">Complete</span></div>-->
+		<div class="main col-12 ">
+            <h1 class="page-title">Describe the role of an operating system</h1>
+			<p class="text-muted page-duration"></p>
+			
+			<!--Put custom page content here.-->
+
+            <h3 id="what-is-an-operating-system">What is an operating system?</h3>
+            <p>The operating system is the conductor of the computer. It coordinates the software and hardware parts of the computer, making sure all of the different components work together to get things done.</p>
+            <p>There are many operating systems provided by many companies in the world. Each operating system is designed to work on specific types of devices. For example:</p>
+            <ul>
+                <li><strong>Windows</strong> is designed by Microsoft. It is a family of operating systems that can run on a variety of PCs and laptops. We will use the Windows 10 version of this operating system for demos in this course.</li>
+                <li><strong>MacOS</strong> is designed by Apple Inc. and works on Apple's Macintosh computers like the MacBook.</li>
+                <li><strong>iOS</strong> is designed by Apple Inc. and works on Apple's mobile devices like iPhone, iPod, and iPad devices.</li>
+                <li><strong>Android OS</strong> is designed by Google and works mainly on touchscreen mobile devices like smartphones and tablets.</li>
+                <li><strong>Google Chrome OS</strong> is designed by Google and works on Chromebook devices.</li>
+            </ul>
+			<p><strong>Watch the following video to learn about operating systems.</strong></p>
+            <h4 id="video-what-is-an-operating-system">Video: What is an operating system?</h4>
+			
+			
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.microsoft.com/en-us/videoplayer/embed/RWtXMf" allowfullscreen></iframe>
+                <div id="CaptionsContainer"></div>
+            </div>
+
+			<!--end custom content here-->
+		</div>
+		<div class="next-up col-12">
+			<hr aria-hidden="true" />
+			<p><strong><span class="">Next unit: </span><span class="next-page-name"></span></strong></p>
+		</div>
+	</div>
+	<div class="row page-footer">
+			
+	</div>		
+</div>
+</body>
+</html>

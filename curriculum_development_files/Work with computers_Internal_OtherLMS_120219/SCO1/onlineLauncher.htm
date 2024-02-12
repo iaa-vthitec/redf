@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Course Launcher</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script type="text/javascript" language="JavaScript" src="Player/js/libs/xapiwrapper.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="Player/js/onlineLauncher.min.js"></script>
+
+<script type="text/javascript" language="JavaScript">
+    window.onbeforeunload = finishSession;
+</script>
+
+<style type="text/css"> 
+   html, body, div, iframe { margin:0; padding:0; height:100%; } 
+   iframe { position:fixed; display:block; width:100%; border:none; } 
+</style> 
+
+</head>
+<body onload="initVisualizer();">
+    <div id="divLoading" style="margin-top: 200px; text-align:center; color:black;"><h2 style="color: rgb(0, 0, 0); display: block; font-family: 'segoe ui', arial, sans-sarif; font-size: 20px; font-weight: bold; height: 28px; line-height: 28px; "><img id="loding-image" alt="wait!" src="player/theme/neutral/images/loading_whitebg.gif"> loading...</h2></div>
+    <iframe src="" id="SCO" name="OnlineLauncher" style="width:100%;height:100%;overflow:auto;border:0 solid black;" allowfullscreen></iframe>
+</body>
+</html>

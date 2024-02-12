@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.34" end="00:00:02.285">What is an application?</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:02.485" end="00:00:04.780">Applications are
+software programs</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:04.980" end="00:00:07.345">that help us get things
+done on our computers.</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:07.545" end="00:00:09.490">Every app is developed
+to help you get</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:09.690" end="00:00:12.190">something done, like
+performing a calculation,</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:12.390" end="00:00:15.90">editing a photo, or
+sending a message.</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:15.290" end="00:00:18.275">There are many categories
+of apps that you can use.</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:18.475" end="00:00:21.315">More and more apps are
+being developed every day.</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:21.515" end="00:00:22.850">From computer games, to</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:23.50" end="00:00:25.140">studying apps, to
+communication apps,</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:25.340" end="00:00:26.910">you can find an app
+to help you do</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:27.110" end="00:00:29.340">almost anything on your computer.</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:29.540" end="00:00:31.500">Some of these apps
+come pre-installed on</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:31.700" end="00:00:34.15">your computer or phone with
+your operating system.</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:34.215" end="00:00:36.295">If there is another app
+you want to use,</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:36.495" end="00:00:39.120">you can download it and
+install it to your device.</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:39.320" end="00:00:42.185">Different apps are made for
+different types of devices.</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:42.385" end="00:00:45.30">Many software developers make
+mobile apps that you can</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:45.230" end="00:00:47.850">install and run on
+smartphones on the go.</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:48.50" end="00:00:49.450">Things like transportation apps,</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:49.650" end="00:00:51.845">that let you track
+buses and trains,</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:52.45" end="00:00:53.540">or time management apps,</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:53.740" end="00:00:54.930">that send you
+reminders throughout</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:55.130" end="00:00:57.60">the day, are great
+for mobile phones.</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:00:57.260" end="00:01:00.780">Desktop apps run on desktop
+computers and usually have</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:01:00.980" end="00:01:03.30">many more features than
+mobile apps because they</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:03.230" end="00:01:05.695">run on bigger, more
+powerful computers.</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:05.895" end="00:01:08.550">You can use desktop apps
+to do things like work on</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:08.750" end="00:01:11.810">documents or even write code
+to build your own apps.</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:12.10" end="00:01:14.70">There are also
+web apps that you can</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:14.270" end="00:01:17.565">access online from any device
+that has a web browser.</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:17.765" end="00:01:19.505">With so many apps out there,</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:19.705" end="00:01:21.690">it's easy to find
+the tools that you</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:21.890" end="00:01:51.890">need to get things
+done on your computer.</p>
+    </div>
+  </body>
+</tt>

@@ -1,0 +1,161 @@
+<?xml version="1.0" standalone="no"?>
+<manifest identifier="MANIFEST1" version="1.2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c2lcp="http://www.sumtotalsystems.com/xsd/c2l_cp_rootv1p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd http://www.sumtotalsystems.com/xsd/c2l_cp_rootv1p1 c2l_cp_rootv1p1.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom>
+      <general>
+        <title>
+          <langstring xml:lang="en-US">Work with computers</langstring>
+        </title>
+        <catalogentry>
+          <catalog>Microsoft</catalog>
+          <entry>
+            <langstring xml:lang="en-US">
+            </langstring>
+          </entry>
+        </catalogentry>
+        <language>en-US</language>
+        <description>
+          <langstring xml:lang="en-US">This learning path will introduce you to the different parts and types of the computer and their functions. You will also learn the difference between operating systems and applications and their functions. Peripherals and portable storage devices will be discussed as well. </langstring>
+        </description>
+        <keyword>
+          <langstring xml:lang="en-US">Default</langstring>
+        </keyword>
+        <aggregationlevel>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">3</langstring>
+          </value>
+        </aggregationlevel>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1.0</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+        <contribute>
+          <role>
+            <source>
+              <langstring xml:lang="x-none">LOMv1.0</langstring>
+            </source>
+            <value>
+              <langstring xml:lang="x-none">Author</langstring>
+            </value>
+          </role>
+          <centity>
+            <vcard>BEGIN:vCard ORG: END:vCard</vcard>
+          </centity>
+          <date>
+            <datetime>2007-05-16</datetime>
+          </date>
+        </contribute>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+        <language>en-US</language>
+      </metametadata>
+      <technical>
+        <format>text/html</format>
+        <location type="URI">.</location>
+      </technical>
+      <educational>
+        <learningresourcetype>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Exercise</langstring>
+          </value>
+        </learningresourcetype>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">no</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+        <description>
+          <langstring xml:lang="en-US">All rights reserved</langstring>
+        </description>
+      </rights>
+      <classification>
+        <purpose>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Educational Objective</langstring>
+          </value>
+        </purpose>
+        <description>
+          <langstring xml:lang="en-US">ID</langstring>
+        </description>
+        <keyword>
+          <langstring xml:lang="en-US">Default</langstring>
+        </keyword>
+      </classification>
+    </lom>
+  </metadata>
+  <organizations default="TOC1">
+    <organization identifier="TOC1">
+      <title>Work with computers</title>
+      <item identifier="I_SCO0" identifierref="SCO0">
+        <title>Work with computers</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="SCO0" type="webcontent" adlcp:scormtype="sco" href="SCO1/Launch.htm">
+      <file href="SCO1/Launch.htm" />
+    </resource>
+  </resources>
+  <!-- SumTotal proprietary extensions that hide the menu bar in the launch window and sets the dimensions to 1366x768 -->
+  <c2lcp:ItemDataExtra>
+    <c2lcp:ItemData Type="Course">
+      <c2lcp:ItemSpecificData>
+        <c2lcp:CourseData>
+          <c2lcp:PackageProperties>
+            <c2lcp:CourseDisplay>
+              <c2lcp:ShowNavBar>no</c2lcp:ShowNavBar>
+              <c2lcp:TOC>
+                <c2lcp:MaxLevels>3</c2lcp:MaxLevels>
+                <c2lcp:MaxWidth>1</c2lcp:MaxWidth>
+                <c2lcp:ScrollBar>yes</c2lcp:ScrollBar>
+                <c2lcp:TreeOpenIcon width="9" height="9" />
+                <c2lcp:TreeCloseIcon width="9" height="9" />
+                <c2lcp:TopImage width="-1" height="-1" />
+                <c2lcp:BottomImage width="-1" height="-1" />
+                <c2lcp:BackgroundColor>ffffff</c2lcp:BackgroundColor>
+              </c2lcp:TOC>
+            </c2lcp:CourseDisplay>
+            <c2lcp:Launch>
+              <c2lcp:Width>1366</c2lcp:Width>
+              <c2lcp:Height>768</c2lcp:Height>
+            </c2lcp:Launch>
+          </c2lcp:PackageProperties>
+        </c2lcp:CourseData>
+      </c2lcp:ItemSpecificData>
+    </c2lcp:ItemData>
+  </c2lcp:ItemDataExtra>
+</manifest>

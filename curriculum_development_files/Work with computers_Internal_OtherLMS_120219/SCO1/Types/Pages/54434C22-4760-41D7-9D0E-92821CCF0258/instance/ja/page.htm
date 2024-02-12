@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+<title></title>
+    <script type="text/javascript">
+    // create function to load .js and .css files
+    function loadJs(p, f) {
+        document.write('<s' + 'cript src="' + p + f + '" type="text/javascript"><' + '\/script>');
+    }
+    function loadCss(p, f) {
+        document.write('<link href="' + p + f + '" type="text/css" rel="stylesheet" \/>');
+    }
+
+    // find the parent window that contains the CDN path
+    for (wCDN = window; !wCDN._sCdnPath && window != parent; wCDN = wCDN.parent);
+
+    // see if the course is launched online
+    var isOnline = (location.protocol == "http:" || location.protocol == "https:") && !wCDN._bDisableCDN;
+    if (isOnline) {
+        // it is, try to load jQuery files
+        loadJs(wCDN._sCdnPath, "jQuery/jquery-1.10.2.min.js");
+    } else {
+        // load all of the jQuery files from the Player folder
+        
+        loadJs("../../../Player/js/libs/", "jquery-1.10.2.min.js");
+        
+    }
+    </script>
+    <script type="text/javascript">
+        // see if the course is launched online
+        if (isOnline) {
+            // it is, see if we loaded jQuery from the CDN
+            if (window.jQuery) {
+                // we did, load the rest of the jQuery files from the CDN
+                
+                
+
+                // try to load page.min.js from the common player
+                loadJs(wCDN._sPlayerPath + "Player/js/", "page.min.js");
+            } else {
+                // load all of the jQuery files from the Player folder
+                
+                loadJs("../../../Player/js/libs/", "jquery-1.10.2.min.js");
+                
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        // see if we loaded page.min.js from an online source
+        if (window.TileManager) {
+            // we did, load the rest of the files from the common player
+            loadCss(wCDN._sPlayerPath + "Player/css/", "pagestyles.css");
+        } else {
+            // load player files from local sources
+            loadJs("../../../Player/js/", "page.min.js");
+            loadCss("../../../Player/css/", "pagestyles.css");
+        }
+    </script>
+
+    <link rel="stylesheet" href="../../../Custom/css/pagestyles.css" type="text/css" />
+<script type="text/javascript">
+	//set imagePath to location of icon images relative to the page
+	//var imagePath = "../../../Player/theme/";
+
+	//to override the 2:1 aspectRatio for the page, use the aspectRatioOverride variable
+	//var aspectRatioOverride = 4 / 3;
+</script>
+</head>
+<body onkeydown="return parent.doKeyDown(event);">
+	<div class="page_container">
+		<div class="content_wrapper">
+			<div class="content_container">
+
+				<!-- tile_container is the container for all tiles in the tile framework; it should be a child of content_container (there can be more than one of these, if desired)-->
+				<!-- DO NOT use inline styles to change dimensions of this container; to modify tile sizing, use inline styles on the tile_block elements -->
+				<div class="tile_container">
+					<div class="tile_block">
+
+						<!-- completion progress tile -->
+						<div class="completionprogress_tile small_rectangle tile">
+							<div class="tile_title">
+								<!--required remaining page count will be dynamically inserted here via javascript api call-->
+							</div>
+							<div class="tile_subtitle">
+								Required Pages Remaining
+							</div>
+							<div class="tile_footer">
+								<div class="tile_footer_content">
+								<!-- Tile Footer Content -->
+									My progress
+								<!-- end Tile Footer Content -->
+								</div>
+							</div>
+						</div>
+
+						<!-- ReceiveCreditContent is the container for content that will display in various states of course completion -->
+						<div id="ReceiveCreditContent">
+							<!-- Elements inside ReceiveCreditContent with classname "showOnCreditReceived" will display only after the course is complete -->
+							<div class="showOnCreditReceived">
+								<h2>Credit Received</h2>
+								<p>Congratulations on completing <span class="data-coursename"></span>. Click the EXIT button or close the browser window to leave the course.</p>
+							</div>
+							<!-- Elements inside ReceiveCreditContent with classname "showOnComplete" will display only after all required pages in the course are complete 
+										(with the exception of the current receive credit page) -->
+							<div class="showOnComplete">
+								<h2>Complete</h2>
+								<p>Congratulations on completing <span class="data-coursename"></span>. Click the receive credit button to finish and mark this course as complete.</p>
+							</div>
+							<!-- Elements inside ReceiveCreditContent with classname "showOnIncomplete" will display only when there are incomplete required pages in the course (other than the current page)  -->
+							<div class="showOnIncomplete">
+								<h2>Incomplete</h2>
+								<p>Complete the remaining required pages to receive credit for this course. You can see a list of these pages in the contents section to the right.</p>
+								<p>Items marked with "!" are required.</p>
+							</div>
+						</div>
+
+						<!-- always clear the float at end of a tile_block -->
+						<div class="clear"></div>
+
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

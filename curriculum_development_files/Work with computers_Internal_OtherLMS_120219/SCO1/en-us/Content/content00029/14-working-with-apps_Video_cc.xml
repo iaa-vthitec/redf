@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.450" end="00:00:03.160">When working or
+playing on your computer,</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:03.360" end="00:00:06.15">you will be using
+an application or an app.</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:06.215" end="00:00:08.465">But what is an application?</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:08.665" end="00:00:11.200">Applications are simply
+software programs</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:11.400" end="00:00:13.990">on our computers that
+help us get things done.</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:14.190" end="00:00:15.790">For instance, if you need to</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:15.990" end="00:00:18.325">perform some quick calculations,</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:18.525" end="00:00:21.129">you can use the Calculator,</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:21.329" end="00:00:23.920">or if you want to draw something,</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:24.120" end="00:00:26.840">you can do so in Paint.</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:27.40" end="00:00:29.670">Although there are a variety
+of different apps,</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:29.870" end="00:00:32.400">learning how to use them can
+be easy once you realize</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:32.600" end="00:00:36.570">that most apps share common
+features. Let me show you.</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:36.770" end="00:00:39.345">Let's open Paint.</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:39.545" end="00:00:41.160">Notice there's an area at the top</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:41.360" end="00:00:43.215">of the app called a ribbon.</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:43.415" end="00:00:46.515">In the ribbon, there are
+tabs like File, Home,</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:46.715" end="00:00:48.270">and View that will enable you to</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:48.470" end="00:00:50.700">perform common functions
+within the app.</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:50.900" end="00:00:52.345">Within the Home tab,</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:52.545" end="00:00:54.460">you will be able
+to find Cut, Copy,</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:54.660" end="00:00:56.280">and Paste, as well as how to</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:56.480" end="00:00:58.820">change the size
+and color of text.</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:59.20" end="00:01:01.500">In View, you will be
+able to zoom in and</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:01:01.700" end="00:01:04.170">out as well as turn
+on and off rulers.</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:01:04.370" end="00:01:10.110">Now, let's open Word.</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:10.310" end="00:01:12.685">Notice that ribbon at the top?</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:12.885" end="00:01:16.440">There, we can also find
+those same tabs and buttons.</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:16.640" end="00:01:18.530">In Home, we can cut, copy,</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:18.730" end="00:01:21.740">and paste as well as change
+the size and color of text.</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:21.940" end="00:01:23.940">In View, we can zoom in or</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:24.140" end="00:01:26.490">out as well as turn
+on and off rulers.</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:26.690" end="00:01:29.10">If you are new to
+using these apps,</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:29.210" end="00:01:30.510">always remember
+the ribbon at the top</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:30.710" end="00:01:32.40">of the app is where
+you will usually</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:32.240" end="00:01:33.630">find most of
+the functions you will</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:33.830" end="00:01:36.440">need to use the app effectively.</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:36.640" end="00:01:38.970">The ribbon and menu system might</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:39.170" end="00:01:40.920">look slightly different
+in different apps,</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:41.120" end="00:01:42.270">or if you're using an operating</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:42.470" end="00:01:43.880">system other than Windows 10,</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:44.80" end="00:01:45.30">but you'll still find</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:01:45.230" end="00:01:48.225">similarities that can help
+you learn to use the app.</p>
+      <p xml:id="subtitle44" ttm:role="caption" begin="00:01:48.425" end="00:01:51.240">Also, something very
+convenient about</p>
+      <p xml:id="subtitle45" ttm:role="caption" begin="00:01:51.440" end="00:01:53.490">modern operating systems
+like Windows 10 is,</p>
+      <p xml:id="subtitle46" ttm:role="caption" begin="00:01:53.690" end="00:01:56.175">you can have multiple apps
+open simultaneously.</p>
+      <p xml:id="subtitle47" ttm:role="caption" begin="00:01:56.375" end="00:01:57.660">This is very helpful if you</p>
+      <p xml:id="subtitle48" ttm:role="caption" begin="00:01:57.860" end="00:01:59.70">are working within several apps</p>
+      <p xml:id="subtitle49" ttm:role="caption" begin="00:01:59.270" end="00:02:01.800">at once and need to go
+between these apps easily,</p>
+      <p xml:id="subtitle50" ttm:role="caption" begin="00:02:02.00" end="00:02:03.480">or if you're like me
+and just don't like to</p>
+      <p xml:id="subtitle51" ttm:role="caption" begin="00:02:03.680" end="00:02:05.880">close applications when
+you're done using them.</p>
+      <p xml:id="subtitle52" ttm:role="caption" begin="00:02:06.80" end="00:02:08.430">Once you become familiar
+with the different apps on</p>
+      <p xml:id="subtitle53" ttm:role="caption" begin="00:02:08.630" end="00:02:09.930">your computer and what you can</p>
+      <p xml:id="subtitle54" ttm:role="caption" begin="00:02:10.130" end="00:02:11.640">accomplish when using them,</p>
+      <p xml:id="subtitle55" ttm:role="caption" begin="00:02:11.840" end="00:02:41.840">there is no limit
+to what you can do.</p>
+    </div>
+  </body>
+</tt>

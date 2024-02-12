@@ -1,0 +1,37 @@
+﻿/* Access Point Studio Description styles for Azure Media Player plugin */
+
+/* button added to control bar */
+.amp-default-skin .vjs-control-bar .amp-apsdescriptions-control:before {
+    width: 22px;
+    height: 22px;
+    font-size: 16px;
+    content: "\f29e";
+    font-family: FontAwesome !important;
+    margin-left: 3px;
+}
+
+.amp-default-skin .vjs-control-bar .amp-apsdescriptions-control:hover {
+    background-color: rgba(255,255,255,.1);
+}
+
+.amp-default-skin .vjs-control-bar .amp-apsdescriptions-control .vjs-menu .vjs-menu-content .amp-menu-header {
+    text-transform: uppercase;
+}
+
+.amp-default-skin .vjs-description-container {
+    font-size: 12px;
+    background-color: #000000;
+    /*margin: 1em;
+    padding: 0.5em;
+    overflow: auto;*/
+    text-align: center;
+    opacity:0;
+    position:absolute;
+    top:0px;
+    height:0px;
+    width:0px;
+    background-color:transparent;
+    color:transparent;
+}
+
+/* End CSS for plugin */

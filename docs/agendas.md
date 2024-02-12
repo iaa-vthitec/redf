@@ -1,9 +1,25 @@
 ## Curriculum Details
 
-The curriculum includes two primary modes of learning, 1) instructor-led discussions with guided exercises (referred here as "Lessons"), and 2) self-study activities consisting of digital learning modules (short videos followed by quizzes on the content). After each instructor meeting, participants have self-study work to complete that supplements the current topics.
-
-You can view the
-<button style="font-size:1em">Master Topic List Spreadsheet <i class="fa fa-file-excel-o"></i></button>
+<p>
+    The curriculum includes two primary modes of learning, 1) instructor-led discussions with guided exercises (referred
+    here as "Lessons"), and 2) self-study activities consisting of digital learning modules (short videos followed by
+    quizzes on the content). After each instructor meeting, participants have self-study work to complete that
+    supplements the current topics.
+</p>
+<p>
+    The times assigned in the agendas below are approximate. The instructor can adapt the length of the lesson by
+    reducing depth on certain topics while maintaining the minimum breadth and coverage of defined topics (i.e., lessons
+    should be shortened uniformly to maintain coverage of all curriculum topics instead of taking a deep dive into the
+    first few topics and not having time to expose students to all modules).
+</p>
+<p>
+    The <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a> online learning modules
+    (resource used for the majority of the self-study activities in this curriculum) aligned with the Technical Skills
+    program contain approximately 24 hours of content, plus additional time to complete section and module quizzes.
+    Thus, the course instructor should work with each participant to define a minimum number of sections to be completed
+    for each module. Participants motivated to go beyond the base assignments can complete as much of the 24 hours of
+    LinkedIn Learning content as possible.
+</p>
 <hr>
 <style>
     details {
@@ -88,16 +104,19 @@ You can view the
                 an overview of the curriculum. This first lesson is designed to provide some initial context to why
                 they will be learning the technical skills ahead. Videos and discussions regarding topics such as 'How
                 computers work?' and the relationship between computer hardware and software will help provide context
-                and excitement for the technical material that follows. Learning content produced by Code.org is
-                designed to get people interested in learning about computers and software development. A selection of their
+                and excitement for the technical material that follows. Learning content produced by <a
+                        href="https://code.org" target="_blank">Code.org</a> is
+                designed to get people interested in learning about computers and software development. A selection of
+                their
                 videos covered topics relevant to this curriculum, and are fairly short and of professional
                 quality. The instructor can play the videos and engage in discussions after each.</p>
             <p>
             <p><em>Example Video:<br></em>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OAx_6-wdslM?si=nXQHawBbTCdccXcc"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe></p>
+                        allowfullscreen></iframe>
+            </p>
             <p class="indent-paragraph">
             <hr>
             <h3>Lesson Plan</h3>
@@ -105,7 +124,8 @@ You can view the
                 <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
                 <li>Provide students with an overview of the Technical Skills curriculum, including the modules that
                     will be covered and the format of the various learning activities (e.g., instructor-led lessons and
-                    online digital learning modules (e.g., the LinkedIn Learning platform).
+                    online digital learning modules (e.g., the <a href="https://www.linkedin.com/learning/"
+                                                                  target="_blank">LinkedIn Learning</a> platform).
                 </li>
                 <li>Make sure participants are settled in, answer any questions, and transition to the first lesson.
                     Review the lesson presentation for 'Computer Hardware' by clicking the 'Lesson
@@ -115,7 +135,8 @@ You can view the
                     Play linked videos and engage in group discussion after each.
                 </li>
                 <li>Next, move on to the topic of Computer Networking. Review the lesson presentation for
-                    'How Computer Networks Work' by clicking the 'Lesson Presentation' (link located on row #3 in the table below)
+                    'How Computer Networks Work' by clicking the 'Lesson Presentation' (link located on row #3 in the
+                    table below)
                 </li>
                 <li>Explain the concept of 'Self-Study' (i.e., work that participants will computer prior to the next
                     meeting) and assign their first LinkedIn Learning modules in preparation
@@ -155,7 +176,8 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/Technical_Skills_Files/presentations/Computer_Hardware.pdf" target="_blank"><i
+                            <li><a href="../file/Technical_Skills_Files/presentations/Computer_Hardware.pdf"
+                                   target="_blank"><i
                                     class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
                             <li><a href="https://youtu.be/OAx_6-wdslM?si=1TWi_tLGqXTo_njs" target="_blank"><i
                                     class="fa fa-video-camera" aria-hidden="true"></i> How
@@ -196,7 +218,8 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/Technical_Skills_Files/presentations/Computer_Networks.pdf" target="_blank"><i
+                            <li><a href="../file/Technical_Skills_Files/presentations/Computer_Networks.pdf"
+                                   target="_blank"><i
                                     class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
                             <li><a href="https://youtu.be/Dxcc6ycZ73M?si=7vfpuhqbMWKwmbUj" target="_blank"><i
                                     class="fa fa-video-camera" aria-hidden="true"></i> What is the Internet?</a></li>
@@ -219,7 +242,7 @@ You can view the
     </div>
     <hr class="thick">
     <h3>Self-Study</h3>
-    <p class="indent-paragraph">Participants should complete the following before the next lesson:<br>
+    <p class="indent-paragraph">Participants should work toward completion of the following before the next lesson:<br>
     <ol class="indent-paragraph">
         <li><em>LinkedIn Learning</em>: <strong>Computer Components and Peripherals for IT Technicians</strong></li>
         <li><em>LinkedIn Learning</em>: <strong>Networking Foundations: Networking Basics</strong></li>
@@ -234,39 +257,53 @@ You can view the
     <div class="card">
         <h3>Lesson Overview</h3>
         <div class="container">
-            <p>This first lesson begins with any enrollment and orientation process steps necessary to start. Next,
-                provide students with
-                an overview of the curriculum. This first lesson is designed to provide some initial context to why
-                they will be learning the technical skills ahead. Videos and discussions regarding topics such as 'How
-                computers work?' and the relationship between computer hardware and software will help provide context
-                and excitement for the technical material that follows. Learning content produced by Code.org is
-                targeted
-                at getting people interested in learning about computers and software development. A selection of their
-                videos covered topics relevant to this curriculum, and are relatively short and of professional
-                quality.</p>
+            <p>This second lesson covers the topics of Cloud Computing and Client-Side Virtualization. The lesson
+                presentation covers important concepts, while the activity is designed to expose students to some of the
+                major cloud vendors and their various service offerings. Two LinkedIn Learning modules round out the
+                lesson: <em>Learning Cloud Computing: Core Concepts</em> and <em>Learning Virtualization.</em></p>
             <p class="indent-paragraph">
+            <hr>
+            <h3>Lesson Plan</h3>
             <ol>
-                <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
-                <li>Provide students with an overview of the Technical Skills curriculum, including the modules that
-                    will be covered and the format of the various learning activities (e.g., instructor-led lessons and
-                    online digital learning modules (e.g., the LinkedIn Learning platform).
+                <li>Welcome students to the session. Ask how the first session went and field any questions regarding
+                    the self-study assignments.
                 </li>
-                <li>Make sure participants are settled in, answer any questions, and transition to the first lesson.
-                    Review the lesson presentation for 'How Computer Networks Works' by clicking the 'Lesson
-                    Presentation' (link located on row #2 in the table below).
+                <li>Provide students with an overview of the plan for today's meeting.
                 </li>
-                <li>Provide students with 'Handout 1' and project the diagram. Students will identify
-                    common network devices such as modems, routers, and switches.
+                <li>Next, transition to the first lesson. Review the lesson presentation for 'Virtualization and Cloud
+                    Computing' by clicking the 'Lesson Presentation' (link located on row #1 in the table below).
                 </li>
-                <li>After the discussion on 'Handout 2', administer a short quiz related to the
-                    network diagram covered earlier.
-                </li>
-                <li>Explain the concept of 'Self-Study' (i.e., work that participants will computer prior to the next
-                    meeting) and assign their first LinkedIn Learning modules in preparation
-                    for next session.
+                <li>Play the three linked overview videos on Cloud Computing and discuss with students.</li>
+                <li>ACTIVITY: students visit three major cloud providers' websites and explore offerings. Locate the
+                    Documentation and gain familiarity with the information available and how to navigate the structure
+                    and use the search features to quickly access the information. The instructor may select a specific
+                    topic(s) from the documentation and have students practice their search skills to locate it.
+                    Effectively using technical documentation is an important skill to develop.
+                    <ul>
+                        <li><a href="https://aws.amazon.com"
+                               target="_blank"><i
+                                class="fa fa-external-link" aria-hidden="true"></i> https://aws.amazon.com</a> and <a
+                                href="https://docs.aws.amazon.com"
+                                target="_blank"><i
+                                class="fa fa-external-link" aria-hidden="true"></i> https://docs.aws.amazon.com</a></li>
+                        <li><a href="https://azure.microsoft.com/en-us"
+                               target="_blank"><i
+                                class="fa fa-external-link" aria-hidden="true"></i>
+                            https://azure.microsoft.com/en-us</a> and <a href="https://learn.microsoft.com/en-us/azure/"
+                                                                         target="_blank"><i
+                                class="fa fa-external-link" aria-hidden="true"></i>
+                            https://learn.microsoft.com/en-us/azure/</a></li>
+                        <li><a href="https://cloud.google.com/?hl=en"
+                               target="_blank"><i
+                                class="fa fa-external-link" aria-hidden="true"></i> https://cloud.google.com/?hl=en</a>
+                            and <a href="https://cloud.google.com/docs/"
+                                   target="_blank"><i
+                                    class="fa fa-external-link" aria-hidden="true"></i>
+                                https://cloud.google.com/docs/</a></li>
+                    </ul>
                 </li>
                 <li>Check in with students before the end of the lesson to gauge how they are feeling at the end of
-                    their first day. What questions do you have?
+                    their second day. What questions do you have?
                 </li>
             </ol>
             <table class="table-style">
@@ -279,7 +316,7 @@ You can view the
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Virtualization & Cloud Computing</td>
+                    <td>Virtualization & <br>Cloud Computing</td>
                     <td>
                         <ul>
                             <li>Cloud Computing</li>
@@ -288,19 +325,28 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/Technical_Skills_Files/presentations/Virtualization_and_Cloud_Computing.pdf" target="_blank"><i
-                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
-                            <li>After discussion, begin <br>LinkedIn Learning modules</li>
+                            <li>
+                                <a href="../file/Technical_Skills_Files/presentations/Virtualization_and_Cloud_Computing.pdf"
+                                   target="_blank"><i
+                                        class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li><a href="https://youtu.be/mxT233EdY5c?si=QiLYjKOxfsICkkUq" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> What is Cloud Computing?</a></li>
+                            <li><a href="https://youtu.be/oPSHs71mTVU?si=_K17NZX08ScpuPBm" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Microsoft Azure Overview</a></li>
+                            <li><a href="https://youtu.be/4D3X6Xl5c_Y?si=EgvrQwVzeChsZO72" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Google Cloud Platform</a></li>
+                            <li>Activity: Cloud Vendors</li>
+                            <li>After activity and discussion, begin <br>LinkedIn Learning modules</li>
                         </ul>
                     </td>
-                    <td>1:00</td>
+                    <td>2:00</td>
                 </tr>
             </table>
         </div>
     </div>
     <hr class="thick">
     <h3>Self-Study</h3>
-    <p class="indent-paragraph">Participants should complete the following before the next lesson:<br>
+    <p class="indent-paragraph">Participants should work toward completion of the following before the next lesson:<br>
     <ol class="indent-paragraph">
         <li><em>LinkedIn Learning</em>: <strong>Learning Cloud Computing: Core Concepts</strong></li>
         <li><em>LinkedIn Learning</em>: <strong>Learning Virtualization</strong></li>
@@ -315,30 +361,33 @@ You can view the
     <div class="card">
         <h3>Lesson Overview</h3>
         <div class="container">
-            <p>This first lesson begins any enrollment and orientation process steps necessary to begin. Next, an </p>
+            <p>The third agenda covers the modules on Hardware & Networking Troubleshooting and Operating Systems. Three
+                LinkedIn Learning modules round out the
+                lesson: <em>Troubleshooting Common PC Issues for Users</em>, <em>CompTIA A+ Core 2 (220-1102) Cert Prep:
+                    3 Operating Systems.</em>, and <em>Cert Prep: LPI Linux Essentials (010-160)</em>. The third module,
+                Linux Essentials contains some advanced content that will provide a challenge for students looking to go
+                a bit beyond. The instructor should work with each student to set personal completion goals with regard
+                to this content.</p>
             <p class="indent-paragraph">
+            <hr>
+            <h3>Lesson Plan</h3>
             <ol>
-                <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
-                <li>Provide students with an overview of the Technical Skills curriculum, including the modules that
-                    will be covered and the format of the various learning activities (e.g., instructor-led lessons and
-                    online digital learning modules (e.g., the LinkedIn Learning platform).
+                <li>Welcome students to the session. Ask how the previous session went and field any questions regarding
+                    the self-study assignments.
                 </li>
-                <li>Make sure participants are settled in, answer any questions, and transition to the first lesson.
-                    Review the lesson presentation for 'How Computer Networks Works' by clicking the 'Lesson
-                    Presentation' (link located on row #2 in the table below).
+                <li>Provide students with an overview of the plan for today's meeting.
                 </li>
-                <li>Provide students with 'Handout 1' and project the diagram. Students will identify
-                    common network devices such as modems, routers, and switches.
+                <li>Next, transition to the first lesson. Review the lesson presentation for 'Troubleshooting' by
+                    clicking the 'Lesson Presentation' (link located on row #1 in the table below).
                 </li>
-                <li>After the discussion on 'Handout 2', administer a short quiz related to the
-                    network diagram covered earlier.
+                <li>Next, transition to the second lesson. Review the lesson presentation for 'Operating Systems' by
+                    clicking the 'Lesson Presentation' (link located on row #2 in the table below).
                 </li>
-                <li>Explain the concept of 'Self-Study' (i.e., work that participants will computer prior to the next
-                    meeting) and assign their first LinkedIn Learning modules in preparation
-                    for next session.
+                <li>DEMO: Demonstrate command line use. Show students common commands such as changing directories,
+                    creating and moving files, and executing scripts.
                 </li>
                 <li>Check in with students before the end of the lesson to gauge how they are feeling at the end of
-                    their first day. What questions do you have?
+                    their third meeting. What questions do you have?
                 </li>
             </ol>
             <table class="table-style">
@@ -360,7 +409,8 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/Technical_Skills_Files/presentations/Troubleshooting.pdf" target="_blank"><i
+                            <li><a href="../file/Technical_Skills_Files/presentations/Troubleshooting.pdf"
+                                   target="_blank"><i
                                     class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
                         </ul>
                     </td>
@@ -385,9 +435,13 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/Technical_Skills_Files/presentations/Operating_Systems.pdf" target="_blank"><i
+                            <li><a href="../file/Technical_Skills_Files/presentations/Operating_Systems.pdf"
+                                   target="_blank"><i
                                     class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
-                            <li>After discussion, begin <br>LinkedIn Learning modules</li>
+                            <li><a href="https://www.w3schools.com/whatis/whatis_cli.asp" target="_blank"><i
+                                    class="fa fa-external-link" aria-hidden="true"></i> Command Line Input</a></li>
+                            <li>DEMO: Command Line Basics</li>
+                            <li>After demo/discussion, begin <br>LinkedIn Learning modules</li>
                         </ul>
                     </td>
                     <td>1:00</td>
@@ -397,7 +451,7 @@ You can view the
     </div>
     <hr class="thick">
     <h3>Self-Study</h3>
-    <p class="indent-paragraph">Participants should complete the following before the next lesson:<br>
+    <p class="indent-paragraph">Participants should work toward completion of the following before the next lesson:<br>
     <ol class="indent-paragraph">
         <li><em>LinkedIn Learning</em>: <strong>Troubleshooting Common PC Issues for Users</strong></li>
         <li><em>LinkedIn Learning</em>: <strong>CompTIA A+ Core 2 (220-1102) Cert Prep: 3 Operating Systems</strong>
@@ -414,30 +468,33 @@ You can view the
     <div class="card">
         <h3>Lesson Overview</h3>
         <div class="container">
-            <p>This first lesson begins any enrollment and orientation process steps necessary to begin. Next, an </p>
+            <p>This agenda contains two modules, Cybersecurity and Software Troubleshooting. The lesson presentation
+                contains slides covering an overview of important cybersecurity topics, such as malware, wireless
+                security, and social engineering. A selection of security-related videos (from Code.org) are linked in
+                the lesson for the instructor to play and then engage in group discussion on the covered concepts. Next,
+                the Software Troubleshooting module introduces common troubleshooting issues with steps
+                to resolve and build a troubleshooting mindset. Two LinkedIn Learning modules round out the
+                lesson: <em>IT Security Foundations: Core Concepts</em> and <em>IT Help Desk for Beginners.</em></p>
             <p class="indent-paragraph">
+            <hr>
+            <h3>Lesson Plan</h3>
             <ol>
-                <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
-                <li>Provide students with an overview of the Technical Skills curriculum, including the modules that
-                    will be covered and the format of the various learning activities (e.g., instructor-led lessons and
-                    online digital learning modules (e.g., the LinkedIn Learning platform).
+                <li>Welcome students to the session. Ask how the previous session went and field any questions regarding
+                    the self-study assignments.
                 </li>
-                <li>Make sure participants are settled in, answer any questions, and transition to the first lesson.
-                    Review the lesson presentation for 'How Computer Networks Works' by clicking the 'Lesson
-                    Presentation' (link located on row #2 in the table below).
+                <li>Provide students with an overview of the plan for today's meeting.
                 </li>
-                <li>Provide students with 'Handout 1' and project the diagram. Students will identify
-                    common network devices such as modems, routers, and switches.
+                <li>Next, transition to the first lesson. Review the lesson presentation for 'Cybersecurity' by
+                    clicking the 'Lesson Presentation' (link located on row #1 in the table below).
                 </li>
-                <li>After the discussion on 'Handout 2', administer a short quiz related to the
-                    network diagram covered earlier.
+                <li>Play the linked security-related videos from Code.org and discuss the concepts after each video.
                 </li>
-                <li>Explain the concept of 'Self-Study' (i.e., work that participants will computer prior to the next
-                    meeting) and assign their first LinkedIn Learning modules in preparation
-                    for next session.
+                <li>Next, transition to the second lesson. Review the presentation content for 'Software
+                    Troubleshooting' by
+                    clicking the 'Software Troubleshooting (link located on row #2 in the table below).
                 </li>
                 <li>Check in with students before the end of the lesson to gauge how they are feeling at the end of
-                    their first day. What questions do you have?
+                    their fourth meeting. What questions do you have?
                 </li>
             </ol>
             <table class="table-style">
@@ -466,14 +523,16 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/Technical_Skills_Files/presentations/Cybersecurity.pdf" target="_blank"><i
+                            <li><a href="../file/Technical_Skills_Files/presentations/Cybersecurity.pdf"
+                                   target="_blank"><i
                                     class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
                             <li><a href="https://youtu.be/4J6FNRft9pQ?si=GyuWetwrKaEYY8y3" target="_blank"><i
                                     class="fa fa-video-camera" aria-hidden="true"></i> How Not To Get Hacked</a></li>
                             <li><a href="https://youtu.be/qLMIK5YVgfA?si=Z1MibmYx_DgpXybv" target="_blank"><i
                                     class="fa fa-video-camera" aria-hidden="true"></i> Passwords</a></li>
                             <li><a href="https://youtu.be/l9mEd8LOMl8?si=xx8-oL9omY2D92O-" target="_blank"><i
-                                    class="fa fa-video-camera" aria-hidden="true"></i> Authentication & Device Locks</a></li>
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Authentication & Device Locks</a>
+                            </li>
                             <li><a href="https://youtu.be/YfiM8rXg3ug?si=PPH5N6XQkJwGrhlj" target="_blank"><i
                                     class="fa fa-video-camera" aria-hidden="true"></i> Phishing</a></li>
                             <li><a href="https://youtu.be/E3imvkP3IC0?si=gDbrWn3dmb0CMwgq" target="_blank"><i
@@ -493,8 +552,16 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="../file/Technical_Skills_Files/presentations/Software_Troubleshooting.pdf" target="_blank"><i
-                                    class="fa fa-file" aria-hidden="true"></i> Lesson Presentation</a></li>
+                            <li><a href="https://youtu.be/tAp6lsooLO4?si=Z627mK5v50I2JW0o" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Troubleshooting is Critical in IT
+                            </a></li>
+                            <li>
+                                <a href="https://edu.gcfglobal.org/en/computerbasics/basic-troubleshooting-techniques/1/"
+                                   target="_blank"><i
+                                        class="fa fa-external-link" aria-hidden="true"></i> Software Troubleshooting</a>
+                            </li>
+                            <li><a href="https://youtu.be/Grl5sHgdli4?si=kDoMKK8I-4W3jcuL" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Malware Overview</a></li>
                             <li>After discussion, begin <br>LinkedIn Learning modules</li>
                         </ul>
                     </td>
@@ -505,7 +572,7 @@ You can view the
     </div>
     <hr class="thick">
     <h3>Self-Study</h3>
-    <p class="indent-paragraph">Participants should complete the following before the next lesson:<br>
+    <p class="indent-paragraph">Participants should work toward completion of the following before the next lesson:<br>
     <ol class="indent-paragraph">
         <li><em>LinkedIn Learning</em>: <strong>IT Security Foundations: Core Concepts</strong></li>
         <li><em>LinkedIn Learning</em>: <strong>IT Help Desk for Beginners</strong></li>
@@ -520,31 +587,35 @@ You can view the
     <div class="card">
         <h3>Lesson Overview</h3>
         <div class="container">
-            <p>This first lesson begins any enrollment and orientation process steps necessary to begin. Next, an </p>
+            <p>This final agenda contains three modules: 1) Operational Procedures, 2) Privacy, Licensing, Policies, and
+                3) Mobile Devices. The lesson content links to external website covering an overview of important IT
+                helpdesk topics, such as common helpdesk issues and their resolutions. Only one LinkedIn Learning module
+                is assigned, <em>CompTIA A+ Core 1 (220-1101) Cert Prep: 8 Portable Computing</em>, but students can
+                complete any remaining self-study content to finish up the program.</p>
 
             <p class="indent-paragraph">
+            <hr>
+            <h3>Lesson Plan</h3>
             <ol>
-                <li>Welcome students to the program. Complete any orientation steps as necessary to begin.</li>
-                <li>Provide students with an overview of the Technical Skills curriculum, including the modules that
-                    will be covered and the format of the various learning activities (e.g., instructor-led lessons and
-                    online digital learning modules (e.g., the LinkedIn Learning platform).
+                <li>Welcome students to the session. Ask how the previous session went and field any questions regarding
+                    the self-study assignments.
                 </li>
-                <li>Make sure participants are settled in, answer any questions, and transition to the first lesson.
-                    Review the lesson presentation for 'How Computer Networks Works' by clicking the 'Lesson
-                    Presentation' (link located on row #2 in the table below).
+                <li>Provide students with an overview of the plan for today's meeting.
                 </li>
-                <li>Provide students with 'Handout 1' and project the diagram. Students will identify
-                    common network devices such as modems, routers, and switches.
+                <li>Next, transition to the first lesson. Review the lesson material linked in the 'Operational
+                    Procedures' module Resource cell (link located on row #1 in the table below).
                 </li>
-                <li>After the discussion on 'Handout 2', administer a short quiz related to the
-                    network diagram covered earlier.
+                <li>Play the linked 'Software: Installation, Removal, and Everything in Between' video discuss the
+                    concepts after each video.
                 </li>
-                <li>Explain the concept of 'Self-Study' (i.e., work that participants will computer prior to the next
-                    meeting) and assign their first LinkedIn Learning modules in preparation
-                    for next session.
+                <li>Next, transition to the second lesson. Review the content for 'Privacy, Licensing, Policies' by
+                    clicking the in the Resource cell (link located on row #2 in the table below).
+                </li>
+                <li>Next, transition to the final lesson. Review the content for 'Mobile Devices' by clicking in the
+                    Resource cell (link located on row #3 in the table below).
                 </li>
                 <li>Check in with students before the end of the lesson to gauge how they are feeling at the end of
-                    their first day. What questions do you have?
+                    their final meeting. What questions do you have? What went well? What could be improved?
                 </li>
             </ol>
             <table class="table-style">
@@ -566,12 +637,24 @@ You can view the
                             <li>Safety Procedures</li>
                         </ul>
                     </td>
-                    <td><ul><li><a href="https://www.suptask.com/blog/help-desk-troubleshooting-guide" target="_blank"><i
+                    <td>
+                        <ul>
+                            <li><a href="https://www.suptask.com/blog/help-desk-troubleshooting-guide"
+                                   target="_blank"><i
                                     class="fa fa-external-link" aria-hidden="true"></i> IT Helpdesk Guide</a></li>
-                        <li><a href="https://www.alert-software.com/blog/the-most-common-helpdesk-problems-and-how-to-solve-them" target="_blank"><i
-                                    class="fa fa-external-link" aria-hidden="true"></i> Common Helpdesk Problems</a></li>
-                       </ul></td>
-                    <td>0:30</td>
+                            <li>
+                                <a href="https://www.alert-software.com/blog/the-most-common-helpdesk-problems-and-how-to-solve-them"
+                                   target="_blank"><i
+                                        class="fa fa-external-link" aria-hidden="true"></i> Common Helpdesk Problems</a>
+                            </li>
+                            <li>
+                                <a href="https://youtu.be/G7hBtzi8D0o?si=REj_o6shUmjNMaat"
+                                   target="_blank"><i
+                                        class="fa fa-video-camera" aria-hidden="true"></i> Software Installation</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>1:00</td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -585,10 +668,16 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="">TBD</a></li>
+                            <li><a href="https://youtu.be/lJC_sJ6jhDo?si=G-PkCmUDX9f3_4L7" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Intro to IT Support</a></li>
+                            <li><a href="https://youtu.be/f_c7PrH3rX8?si=3GSIAGUwlg6PBRVi" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> IT Support</a></li>
+                            <li><a href="https://youtu.be/9q44g-1wgrQ?si=0dYjV3hSPObQ0Ia2" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> IT Customer Service</a></li>
+
                         </ul>
                     </td>
-                    <td>1:00</td>
+                    <td>0:30</td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -604,18 +693,19 @@ You can view the
                     </td>
                     <td>
                         <ul>
-                            <li><a href="">Lesson Presentation</a></li>
-                            <li>After discussion, begin <br>LinkedIn Learning modules</li>
+                            <li><a href="https://youtu.be/nPVAAapx_5s?si=vGdMApfLbntWLMIH" target="_blank"><i
+                                    class="fa fa-video-camera" aria-hidden="true"></i> Mobile Device Support</a></li>
+                            <li>After discussion, begin <br>LinkedIn Learning module</li>
                         </ul>
                     </td>
-                    <td>1:00</td>
+                    <td>0:30</td>
                 </tr>
             </table>
         </div>
     </div>
     <hr class="thick">
     <h3>Self-Study</h3>
-    <p class="indent-paragraph">Participants should complete the following:<br>
+    <p class="indent-paragraph">Participants should work toward completion of the following:<br>
     <ol class="indent-paragraph">
         <li><em>LinkedIn Learning</em>: <strong>CompTIA A+ Core 1 (220-1101) Cert Prep: 8 Portable Computing</strong>
         </li>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.870" end="00:00:03.315">Whatever the reason
+you need a folder,</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:03.515" end="00:00:04.995">creating them is easy.</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:05.195" end="00:00:07.689">Let's start by opening
+File Explorer.</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:07.889" end="00:00:09.850">You can either find it
+in your task bar or</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:10.50" end="00:00:12.475">you can search for it
+in the search bar.</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:12.675" end="00:00:14.770">I want to create a new folder for</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:14.970" end="00:00:16.210">some of my business documents.</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:16.410" end="00:00:19.260">So, I will create
+a folder called Business,</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:19.460" end="00:00:20.955">and since I want
+to find it easily,</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:21.155" end="00:00:23.820">I will create it inside
+my Documents folder.</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:24.20" end="00:00:27.355">Here, I go to the top and
+click the "Home" tab,</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:27.555" end="00:00:29.540">and then select "New folder".</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:29.740" end="00:00:32.535">A new folder will appear
+in the list below.</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:32.735" end="00:00:35.210">Notice the name of
+the folder is highlighted.</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:35.410" end="00:00:37.730">Windows now wants me
+to rename the folder,</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:37.930" end="00:00:39.210">what I would like
+it to be called.</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:39.410" end="00:00:42.675">Click within the name,
+select all of New folder,</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:42.875" end="00:00:44.130">and then rename the folder,</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:44.330" end="00:00:47.400">Business, and click "Enter".</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:47.600" end="00:00:49.650">There is my new folder.</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:49.850" end="00:00:51.540">Now that I have my new folder,</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:51.740" end="00:00:53.80">how do I create a file?</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:53.280" end="00:00:54.630">To do this, let's go back into</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:54.830" end="00:00:56.255">that new folder I just created.</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:00:56.455" end="00:00:58.20">Once in the folder, again go to</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:00:58.220" end="00:01:02.920">the "Home" tab and select
+the "New" item drop-down list.</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:03.120" end="00:01:05.490">We're now presented
+with the selection of</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:05.690" end="00:01:07.485">new types of files we can create.</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:07.685" end="00:01:09.195">Once we select one like</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:09.395" end="00:01:11.970">Microsoft Word Document
+or Text Document,</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:12.170" end="00:01:14.295">it will create a document
+in your folder.</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:14.495" end="00:01:17.925">Once it is created like when
+we created the new folder,</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:18.125" end="00:01:20.280">it is waiting for you
+to rename the file.</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:20.480" end="00:01:21.720">Let's say I'm an author</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:21.920" end="00:01:23.410">and thinking of
+writing a new book,</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:23.610" end="00:01:26.490">and I want to create a list
+of types of book I may write.</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:26.690" end="00:01:30.570">So, let's call
+this file, "Book Ideas."</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:30.770" end="00:01:32.815">Now that the file is created,</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:33.15" end="00:01:36.690">we can open it and edit it.</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:36.890" end="00:01:40.05">Okay. So, I may have
+named that file wrong.</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:40.205" end="00:01:41.600">Instead of book ideas,</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:41.800" end="00:01:43.570">I should have named
+it Book Types.</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:01:43.770" end="00:01:46.145">So, now I need to
+rename the file.</p>
+      <p xml:id="subtitle44" ttm:role="caption" begin="00:01:46.345" end="00:01:47.790">To do this, just find</p>
+      <p xml:id="subtitle45" ttm:role="caption" begin="00:01:47.990" end="00:01:50.555">the file in the folder
+and click it.</p>
+      <p xml:id="subtitle46" ttm:role="caption" begin="00:01:50.755" end="00:01:54.930">Then go to the "Home" tab
+and select "Rename".</p>
+      <p xml:id="subtitle47" ttm:role="caption" begin="00:01:55.130" end="00:02:00.480">Now, I can rename it.</p>
+      <p xml:id="subtitle48" ttm:role="caption" begin="00:02:00.680" end="00:02:02.580">Now that I think about it,</p>
+      <p xml:id="subtitle49" ttm:role="caption" begin="00:02:02.780" end="00:02:04.650">I created that file
+in the wrong folder,</p>
+      <p xml:id="subtitle50" ttm:role="caption" begin="00:02:04.850" end="00:02:06.600">it should have been
+created in a folder</p>
+      <p xml:id="subtitle51" ttm:role="caption" begin="00:02:06.800" end="00:02:08.770">I've already created
+called New Book,</p>
+      <p xml:id="subtitle52" ttm:role="caption" begin="00:02:08.970" end="00:02:10.925">so, let's move into that folder.</p>
+      <p xml:id="subtitle53" ttm:role="caption" begin="00:02:11.125" end="00:02:12.960">To do this, select the file,</p>
+      <p xml:id="subtitle54" ttm:role="caption" begin="00:02:13.160" end="00:02:14.335">go to the "Home" tab,</p>
+      <p xml:id="subtitle55" ttm:role="caption" begin="00:02:14.535" end="00:02:17.110">and select the "Move
+to" drop-down list.</p>
+      <p xml:id="subtitle56" ttm:role="caption" begin="00:02:17.310" end="00:02:19.80">There are several selections of</p>
+      <p xml:id="subtitle57" ttm:role="caption" begin="00:02:19.280" end="00:02:21.190">where we may want
+to move that file.</p>
+      <p xml:id="subtitle58" ttm:role="caption" begin="00:02:21.390" end="00:02:23.805">The folder I want to move
+it to is not listed.</p>
+      <p xml:id="subtitle59" ttm:role="caption" begin="00:02:24.05" end="00:02:26.930">So, I can select
+"Choose location".</p>
+      <p xml:id="subtitle60" ttm:role="caption" begin="00:02:27.130" end="00:02:29.325">There is my folder,</p>
+      <p xml:id="subtitle61" ttm:role="caption" begin="00:02:29.525" end="00:02:31.770">select it and click "Move",</p>
+      <p xml:id="subtitle62" ttm:role="caption" begin="00:02:31.970" end="00:02:35.430">and it disappears from
+the current folder,</p>
+      <p xml:id="subtitle63" ttm:role="caption" begin="00:02:35.630" end="00:02:39.625">and here it is in the new
+folder, that was pretty easy.</p>
+      <p xml:id="subtitle64" ttm:role="caption" begin="00:02:39.825" end="00:02:42.690">Actually, I like it back in
+that other folder better.</p>
+      <p xml:id="subtitle65" ttm:role="caption" begin="00:02:42.890" end="00:02:45.590">Another way to move files
+is to drag and drop them.</p>
+      <p xml:id="subtitle66" ttm:role="caption" begin="00:02:45.790" end="00:02:48.30">To move this file back
+into the other folder,</p>
+      <p xml:id="subtitle67" ttm:role="caption" begin="00:02:48.230" end="00:02:49.545">click and hold on the file</p>
+      <p xml:id="subtitle68" ttm:role="caption" begin="00:02:49.745" end="00:02:51.940">then drag it to the new folder,</p>
+      <p xml:id="subtitle69" ttm:role="caption" begin="00:02:52.140" end="00:02:53.940">then, let the mouse button go</p>
+      <p xml:id="subtitle70" ttm:role="caption" begin="00:02:54.140" end="00:02:57.690">to drop the file
+into the new folder.</p>
+      <p xml:id="subtitle71" ttm:role="caption" begin="00:02:57.890" end="00:03:01.20">Now that I think about
+it, I'm not an author.</p>
+      <p xml:id="subtitle72" ttm:role="caption" begin="00:03:01.220" end="00:03:02.650">So, I shouldn't be
+writing a book after</p>
+      <p xml:id="subtitle73" ttm:role="caption" begin="00:03:02.850" end="00:03:04.380">all, no one would buy it.</p>
+      <p xml:id="subtitle74" ttm:role="caption" begin="00:03:04.580" end="00:03:06.335">So, let's delete that file.</p>
+      <p xml:id="subtitle75" ttm:role="caption" begin="00:03:06.535" end="00:03:08.190">If you do not need
+the file anymore and would</p>
+      <p xml:id="subtitle76" ttm:role="caption" begin="00:03:08.390" end="00:03:10.160">like to delete it
+or throw it away,</p>
+      <p xml:id="subtitle77" ttm:role="caption" begin="00:03:10.360" end="00:03:11.915">simply select the file,</p>
+      <p xml:id="subtitle78" ttm:role="caption" begin="00:03:12.115" end="00:03:16.00">go to the "Home" tab,
+and select "Delete".</p>
+      <p xml:id="subtitle79" ttm:role="caption" begin="00:03:16.200" end="00:03:19.540">There, the file is
+gone, but don't worry.</p>
+      <p xml:id="subtitle80" ttm:role="caption" begin="00:03:19.740" end="00:03:22.120">Now you know how to
+create files and folders,</p>
+      <p xml:id="subtitle81" ttm:role="caption" begin="00:03:22.320" end="00:03:24.300">rename them, move files from</p>
+      <p xml:id="subtitle82" ttm:role="caption" begin="00:03:24.500" end="00:03:54.500">one folder to another,
+and delete files.</p>
+    </div>
+  </body>
+</tt>

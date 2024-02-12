@@ -1,0 +1,299 @@
+﻿/* Access Point Studio Chapters styles for Azure Media Player plugin */
+
+/* button added to control bar */
+.amp-default-skin .vjs-control-bar .amp-apschapters-control {
+    z-index:1;
+}
+
+.amp-default-skin .vjs-control-bar .amp-apschapters-control:before {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    content: "\f02e";
+    font-family: FontAwesome !important;
+    padding-left: 7px;
+}
+
+.amp-default-skin .vjs-control-bar .amp-apschapters-control:hover {
+    background-color:rgb(80,88,97);
+}
+
+/* panel added over the top of video */
+.amp-default-skin .vjs-apschapterspanel {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+    z-index:200000;
+    text-align: left;
+    background-color:rgba(0,0,0,0.5);
+    font-size: 12px;
+}
+
+.amp-default-skin .vjs-apschapterspanel-controls {
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+
+.amp-default-skin .vjs-apschapterspanel-header {
+}
+
+.amp-default-skin .vjs-apschapterspanel-title {
+    font-size: 22px !important;
+    padding-top: 10px;
+    padding-left: 1em;
+}
+
+.amp-default-skin .vjs-apschapterspanel-close {
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+
+.amp-default-skin .vjs-apschapterspanel-close-image:before {
+    width: 16px;
+    height: 16px;
+    content: url('data:image/svg+xml;charset=utf-8,%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2016%2016%22%20style%3D%22enable-background%3Anew%200%200%2016%2016%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.st0%7Bfill%3A%23FFFFFF%3B%7D%3C%2Fstyle%3E%3Cg%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M8.515625%2C7.6269531L15.2539063%2C14.375L14.375%2C15.2539063L7.6269531%2C8.515625l-6.7480469%2C6.7382813L0%2C14.375%2Cl6.7382813-6.7480469L0%2C0.8789063L0.8789063%2C0l6.7480469%2C6.7382813L14.375%2C0l0.8789063%2C0.8789063L8.515625%2C7.6269531z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+
+/* chapter markers on scrubber bar */
+.amp-chapter-marker {
+    position: absolute;
+    background-color: #3c454f;
+    width: 6px;
+    height: auto;
+}
+ 
+.vjs-control .vjs-menu {
+    z-index: 1000 !important;
+}
+
+/* bookmark image shown over the top of image of current chapter */
+.amp-chapter-card-current {
+}
+.amp-chapter-card-current:before {
+    font-family: FontAwesome;
+    font-weight:lighter;
+    color: #FCD116;
+    font-size: 40px;
+    content:"\f02e";
+    position:absolute;
+    z-index:1;
+    top:-3px;
+    left:0px;
+    padding:0px;
+    font-weight: 100;
+}
+
+/* chapter cards show over video */
+.amp-chapter-card1 {
+    position:absolute;
+    z-index: 101000;
+    bottom:85px;
+    color:black;
+    width:219px;
+    font-size:11px;
+    font-weight: normal;
+    background-color:white;
+    box-shadow: 0 0 20px 2px #000000;
+}
+
+.amp-chapter-card1 div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+    color: #222222;
+}
+
+.amp-chapter-card1 .amp-chapter-card-image {
+    width: 100%;
+}
+
+.amp-chapter-card1 .amp-chapter-card-title {
+    font-size: 150% !important;
+    margin-top: -5px;
+    font-weight: bold;
+    color: black;
+}
+
+.amp-chapter-card1 .amp-chapter-card-description-container {
+    overflow: hidden;
+}
+.amp-chapter-card1 .amp-chapter-card-description {
+    padding:0px;
+}
+
+.amp-chapter-card1 .amp-chapter-card-status {
+    padding-bottom: 2em;
+}
+
+.amp-chapter-card-arrow {
+    bottom:-13px;
+    z-index: 101001;
+    background-color:transparent !important;
+    position:absolute;
+    padding: 0px;
+    width: 19px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAKCAYAAABWiWWfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTMyIDc5LjE1OTI4NCwgMjAxNi8wNC8xOS0xMzoxMzo0MCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTFBMDVEQUFBMURCMTFFNjhFMDJBMjZGMjU2QTQ1NEQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTFBMDVEQUJBMURCMTFFNjhFMDJBMjZGMjU2QTQ1NEQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1MUEwNURBOEExREIxMUU2OEUwMkEyNkYyNTZBNDU0RCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MUEwNURBOUExREIxMUU2OEUwMkEyNkYyNTZBNDU0RCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PthITsAAAABVSURBVHjarNBbCgAgCATA1rr/kSuFPnqZRi0YJTJCKJzwJ5H4wA+IK1N74BWSC3VNvEAzdgsO0A7zggukYRa4hU6YBqqQhc3gEZIkx/+gLc3WYBVgAKK2DSZoS3H8AAAAAElFTkSuQmCC);
+}
+
+/* chapter table of contents shown in panel over video */
+.amp-chapter-toc1 {
+    position:relative;
+    font-size: 11px;
+}
+
+.amp-chapter-toc1 .amp-chapter-tocitem {
+     position:absolute;
+     padding:0px;
+     color:black;
+     background-color:white;
+     display: block;
+     margin-right:20px;
+     width: 219px;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-image {
+    width: 100%;
+}
+
+.amp-chapter-toc1 .amp-chapter-tocitem div {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    color: #222222;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-title {
+    font-size: 150% !important;
+    color:black;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-duration {
+    margin-top:0.5em;
+}
+
+
+.amp-chapter-toc1 .amp-chapter-card-description {
+    padding-bottom: 0.25em;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-buttons {
+    position: absolute;
+    bottom:10px;
+    z-index:1;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-view {
+    display: inline-block;
+    padding: 0.5em;
+    background-color: #3c454f;
+    color: white;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-locked {
+    position: absolute;
+    bottom:10px;
+    z-index:1;
+    background-color: #E8E9E9;
+    color:black;
+    left:10px;
+    width:179px;
+    height:29px;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-locked-icon {
+    position: absolute;
+    font-size: 30px;
+    left:15px;
+    padding:0px !important;
+    bottom:-2px;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-locked-icon:before {
+    content: "\f023";
+    font-family: FontAwesome !important;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-locked-text {
+    position: absolute;
+    width: 139px;
+    left:50px;
+    padding:0px !important;
+}
+
+.amp-chapter-toc1 .amp-chapter-card-share {
+    display: inline-block;
+    padding: 0.5em;
+    background-color: #3c454f;
+    color: white;
+    text-decoration: none;
+}
+
+.amp-chapter-toc1  .amp-chapter-tocitem .amp-chapter-card-bottom {
+    position: absolute;
+    bottom:0px;
+    width: 219px;
+    height: 29px;
+    padding:0px;
+    background-color:white;
+}
+
+.amp-chapter-toc1 .amp-chapter-tocitem .amp-chapter-card-description {
+    overflow-y: auto;
+}
+
+.amp-chapter-toc1 .amp-chapter-tocitem .amp-chapter-card-fill {
+    position: absolute;
+    z-index:-1;
+    top: 0px;
+    width:199px;
+    bottom: 29px;
+    background-color: white;
+}
+
+
+/* timed alert message */
+.amp-chapter-alert-container {
+    position: absolute;
+    z-index:10000;
+    top:50px;
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    top: 0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    text-align:center;
+}
+.amp-chapter-alert-icon {
+    margin-top:10%;
+    font-size:80px;
+    font-family: FontAwesome;
+    margin-bottom:20px;
+}
+.amp-chapter-alert {
+    font-size:20px;
+}
+
+.amp-chapter-alert-button {
+    display:block;
+    font-size:12px;
+    padding:1em;
+    background:white;
+    color:black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    text-decoration:none;
+}
+
+/* End CSS for plugin */

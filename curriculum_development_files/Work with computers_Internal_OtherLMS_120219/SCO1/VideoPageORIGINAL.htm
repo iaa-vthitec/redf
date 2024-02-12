@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="Configuration/definitions.js"></script>
+    <script type="text/javascript">
+        // create function to load .js and .css files
+        function loadJs(p, f) {
+            document.write('<s' + 'cript src="' + p + f + '" type="text/javascript"><' + '\/script>');
+        }
+        function loadCss(p, f) {
+            document.write('<link href="' + p + f + '" type="text/css" rel="stylesheet" \/>');
+        }
+    </script>
+    <script type="text/javascript">
+        // see if the course is launched online
+        var isOnline = (location.protocol == "http:" || location.protocol == "https:") && !_bDisableCDN;
+        if (isOnline) {
+            // it is, try to load jQuery files
+            loadJs(_sCdnPath, "jQuery/jquery-1.10.2.min.js");
+        } else {
+            // load all of the jQuery files from the Player folder
+            loadCss("Player/css/", "jquery-ui-1.10.4.custom-ui-darkness.css");
+            loadJs("Player/js/libs/", "jquery-1.10.2.min.js");
+            loadJs("Player/js/libs/", "jquery-ui-1.10.4.custom.min.js");
+        }
+    </script>
+    <script type="text/javascript">
+        // see if the course is launched online
+        if (isOnline) {
+            // it is, see if we loaded jQuery from the CDN
+            if (window.jQuery) {
+                // we did, load the rest of the jQuery files from the CDN
+                loadCss(_sCdnPath, "jquery.ui/1.10.4/themes/ui-darkness/jquery-ui.css");
+                loadJs(_sCdnPath, "jquery.ui/1.10.4/jquery-ui.js");
+            } else {
+                // load all of the jQuery files from the Player folder
+                loadCss("Player/css/", "jquery-ui-1.10.4.custom-ui-darkness.css");
+                loadJs("Player/js/libs/", "jquery-1.10.2.min.js");
+                loadJs("Player/js/libs/", "jquery-ui-1.10.4.custom.min.js");
+            }
+        }
+
+        // get the player object from Launch.htm - notice that video page can be loaded in an iframe of a content window
+        // get the azure media plauer version from the player object
+        for (var lPage = parent; !lPage.views && window != parent; lPage = lPage.parent);
+        var ampVersion = lPage.player.ampVersion;
+
+        // if we are online, load AMP from its CDN
+        if (isOnline) {
+            loadCss(ampVersion, "skins/amp-default/azuremediaplayer.min.css");
+            loadJs(ampVersion, "azuremediaplayer.min.js");
+
+            // try to load our video page code from the common player
+            loadJs(_sPlayerPath + "Player/js/libs/videoplayer/", "videoPage.js");
+        } else {
+            // load the from local source
+            loadCss("Player/js/libs/videoplayer/css/", "azuremediaplayer.min.css");
+            loadJs("Player/js/libs/videoplayer/", "azuremediaplayer.min.js");
+        }
+    </script>
+
+    <!-- 
+    <link href="https://amp.azure.net/libs/amp/2.1.1/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="https://amp.azure.net/libs/amp/2.1.1/azuremediaplayer.min.js"></script>
+    -->
+
+    <script type="text/javascript">
+        // see if we were able to load from the common player folder
+        if (window.VideoPlayer) {
+            // we did, load from the common common player
+            loadCss(_sPlayerPath + "Player/css/", "pagestyles.css");
+            loadJs(_sPlayerPath + "Player/js/libs/videoplayer/", "apsChapters.js");
+            loadJs(_sPlayerPath + "Player/js/libs/videoplayer/", "apsDescriptions.js");
+            loadJs(_sPlayerPath + "Player/js/libs/videoplayer/", "apsKeyPoints.js");
+            loadCss(_sPlayerPath + "Player/js/libs/videoplayer/css/", "apsChapters.css");
+            loadCss(_sPlayerPath + "Player/js/libs/videoplayer/css/", "apsDescriptions.css");
+            loadCss(_sPlayerPath + "Player/js/libs/videoplayer/css/", "apsKeyPoints.css");
+        } else {
+            // load files from the course player folder
+            loadCss("Player/css/", "pagestyles.css");
+            loadJs("Player/js/libs/videoplayer/", "videoPage.js");
+            loadJs("Player/js/libs/videoplayer/", "apsChapters.js");
+            loadJs("Player/js/libs/videoplayer/", "apsDescriptions.js");
+            loadJs("Player/js/libs/videoplayer/", "apsKeyPoints.js");
+            loadCss("Player/js/libs/videoplayer/css/", "apsChapters.css");
+            loadCss("Player/js/libs/videoplayer/css/", "apsDescriptions.css");
+            loadCss("Player/js/libs/videoplayer/css/", "apsKeyPoints.css");
+        }
+    </script>
+
+    <!-- FONTAWESOME FONTS USED FOR CHAPTERS BUTTON -->
+    <script src="https://use.fontawesome.com/8f4386acd4.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+    body,html{margin:0;padding:0;overflow:hidden}
+
+    #showit{display:none;position:absolute;z-index:101000;left:0;top:0;width:100%;height:100%;padding:10px;text-align:center;background-color:#400000}
+    .ErrorNumber,.ErrorFile,.ErrorComplete,.ErrorRetry,.ErrorHelp,.ErrorDiagnostic{padding:5px}
+    .ErrorFile a,.ErrorComplete a,.ErrorHelp a,.ErrorDiagnostic a{color:#fff}
+    #videoContainer{position:absolute;background:#000;width:100%;height:100%}
+    #myVideoContainer{position:absolute;width:100%;height:100%;left:0;top:0;overflow:hidden}
+    #videoOutsideTop,#videoOutsideLeft,#videoOutsideRight{position:absolute;display:none}
+    #videoOutsideTop{height:20%;max-height:100px;width:100%;bottom:100%;left:0}
+    #videoOutsideLeft{width:15%;max-width:150px;height:100%;right:100%;top:0}
+    #videoOutsideRight{width:15%;max-width:150px;height:100%;left:100%;top:0}
+
+    /* hide the big play button - will be shown in code if we need it */
+    .vjs-big-play-button {display:none;}
+
+    /* added transcript, download and captions buttons */
+    .amp-default-skin .apsTranscript{
+        display: inline-block;
+    }
+    .amp-default-skin .apsTranscript:before {
+        content: "\e60b ";
+        color:white;
+        font-size: 20px;
+        line-height: 1em;
+        margin: 4px 0px 0px 4px;
+        padding: 0px;
+        text-align: left;
+        font-family: azuremediaplayer;
+    }
+
+    .amp-default-skin .apsDownload{
+        display: inline-block;
+    }
+    .amp-default-skin .apsDownload:before {
+        content: "\2b07 ";
+        color:white;
+        font-size: 20px;
+        line-height: 1em;
+        margin: 4px 0px 0px 2px;
+        padding: 0px;
+        text-align: left;
+        font-family: azuremediaplayer;
+    }
+
+    .amp-default-skin .apsVolume{
+        display: inline-block;
+    }
+    .amp-default-skin .apsVolume:before {
+        content: "\e605 ";
+        color:white;
+        font-size: 18px;
+        padding-top: 2px;
+        font-family: azuremediaplayer;
+    }
+
+    .amp-default-skin .apsCaptions{
+        display: inline-block;
+    }
+    .amp-default-skin .apsCaptions:before {
+        content: "\e60c ";
+        color:white;
+        font-size: 20px;
+        line-height: 1em;
+        margin: 2px 0px 0px 2px;
+        text-align: left;
+        font-family: azuremediaplayer;
+    }
+
+    .aps-volume-menu-container {
+        position:absolute;
+        z-index:1000;
+        width:30px;
+        bottom:32px;
+        background-color:black;
+        padding:10px 0px 10px 11px;
+        display:none;
+    }
+    .aps-volume-menu {width:6px;height:100px;background:lightgray;}
+    .aps-volume-menu .ui-slider-range {
+        background: #71B1D1;
+    }
+    .aps-volume-menu .ui-slider-handle {
+        width: 26px;
+        background: white;
+        left: -11px;
+        height:8px;
+    }
+
+    /*added this so that the play button shows focus rectangle all the time when it gets focus. Bug in Amp that it wouldn't on first focus.*/
+     .outline-enabled-control:focus {outline: 2px solid #fff !important}
+
+    </style>
+    <link href="Custom/css/playerstyles.css" rel="stylesheet">
+</head>
+<body onkeydown="return doKeyDown(event);" tabindex="-1"> 
+    <div id="videoAlert" class="visuallyhidden" role="alert" aria-live="assertive"></div>
+    <div id="videoContainer" style="position:absolute;">
+        <div id="myVideoContainer" class="pf-container" oncontextmenu="return false;">
+            <video id="myVideoPlayer" class="azuremediaplayer amp-default-skin amp-big-play-centered">
+            </video>
+        </div>
+        <div id="videoOutsideTop"></div>
+        <div id="videoOutsideLeft"></div>
+        <div id="videoOutsideRight"></div>
+    </div>
+    <div id="showit"></div>
+
+</body>
+</html>

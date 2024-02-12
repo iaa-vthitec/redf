@@ -1,0 +1,124 @@
+﻿
+
+/*Background colors*/
+
+/*MS Brand Colors*/
+.brand_bg_yellow {background-color:rgb(255, 185, 0);/*#FFB900  */}
+.brand_bg_orange {background-color:rgb(216,59,1);/*#D83B01  */}
+.brand_bg_red {background-color:rgb(232,17,35);/*#E81123  */}
+.brand_bg_magenta {background-color:rgb(180,0,158);/* #B4009E  */}
+.brand_bg_purple {background-color:rgb(92,45,145);/*#5C2D91  */}
+.brand_bg_blue {background-color:rgb(0,120,215); /* #0078D7  */}
+.brand_bg_teal { background-color:rgb(0,130,114);/*#008272 */}
+.brand_bg_green {background-color:rgb(16,124,16);/*#107C10*/}
+
+/*MS Brand Accent Colors*/
+.brand_bg_accent_lo {background-color: rgb(255,140,0); } /*light orange (#FF8C00 )*/
+.brand_bg_accent_lm {background-color: rgb(227,0,140); } /*light magenta (#E3008C ) */
+.brand_bg_accent_lp {background-color: rgb(180,160,255); } /*light purple ( #B4A0FF )*/
+.brand_bg_accent_lb {background-color: rgb(0,188,242); }  /*light blue (#00BCF2 )*/
+.brand_bg_accent_lt {background-color: rgb(0,178,148); } /* light teal (#00B294 )*/
+.brand_bg_accent_lg {background-color: rgb(186,216,10); } /*light green ( #BAD80A )*/
+.brand_bg_accent_ly {background-color: rgb(255,241,0); } /*light yellow (#FFF100 ) */
+.brand_bg_accent_dr {background-color: rgb(168,0,0)} /*dark red (#A80000 ) */
+.brand_bg_accent_dm {background-color: rgb(92,0,92)} /*dark magenta (#5C005C ) */
+.brand_bg_accent_dp {background-color: rgb(50,20,90)} /*dark purple ( #32145A ) */
+.brand_bg_accent_mb {background-color: rgb(0,24,143)} /*mid blue ( #00188F ) */
+.brand_bg_accent_db {background-color: rgb(0,32,80)} /*dark blue ( #002050 ) */
+.brand_bg_accent_dt {background-color: rgb(0,75,80)} /*dark teal  ( #004B50 ) */
+.brand_bg_accent_dg {background-color: rgb(0,75,28)} /*dark green (#004B1C ) */
+.brand_bg_accent_white {background-color: rgb(255,255,255);} /*white ( #FFFFFF ) */
+.brand_bg_accent_lgray {background-color: rgb(210,210,210);} /*light gray (#D2D2D2 ) */
+.brand_bg_accent_mgray {background-color: rgb(115,115,115)} /*mid gray ( #737373 ) */
+.brand_bg_accent_dgray {background-color: rgb(80,80,80)} /*dark gray ( #505050 )*/
+.brand_bg_accent_black {background-color: rgb(0,0,0)} /*rich black ( #000000 ) */
+
+/*font colors (defaults when on certain backgrounds, default font color is white. Make text black to contrast*/
+
+.brand_bg_orange, .brand_bg_red, .brand_bg_magenta, .brand_bg_purple, .brand_bg_blue, .brand_bg_teal, .brand_bg_green, .brand_bg_accent_dr, .brand_bg_accent_dm, .brand_bg_accent_dp, .brand_bg_accent_mb, .brand_bg_accent_db,.brand_bg_accent_dt, .brand_bg_accent_dg, .brand_bg_accent_mgray, .brand_bg_accent_dgray,.brand_bg_accent_black  {color:white;}
+
+/*MS Brand Accent Colors - make text black to contrast*/
+.brand_bg_yellow, .light_theme .brand_bg_yellow, .brand_bg_accent_lo, .brand_bg_accent_lm, .brand_bg_accent_lp, .brand_bg_accent_lb, .brand_bg_accent_lt,.brand_bg_accent_lg, .brand_bg_accent_ly,.brand_bg_accent_white,.brand_bg_accent_lgray  {color:black !important;}
+   
+
+/*font-colors*/
+/*MS Brand Colors*/
+.brand_text_yellow {color:rgb(255, 185, 0);/*#FFB900  */}
+.brand_text_orange {color:rgb(216,59,1);/*#D83B01  */}
+.brand_text_red {color:rgb(232,17,35);/*#E81123  */}
+.brand_text_magenta {color:rgb(180,0,158);/* #B4009E  */}
+.brand_text_purple {color:rgb(92,45,145);/*#5C2D91  */}
+.brand_text_blue {color:rgb(0,120,215); /* #0078D7  */}
+.brand_text_teal { color:rgb(0,130,114);/*#008272 */}
+.brand_text_green {color:rgb(16,124,16);/*#107C10*/}
+
+/*MS Brand Accent Colors*/
+.brand_text_accent_lo {color: rgb(255,140,0); } /*light orange (#FF8C00 )*/
+.brand_text_accent_lm {color: rgb(227,0,140); } /*light magenta (#E3008C ) */
+.brand_text_accent_lp {color: rgb(180,160,255); } /*light purple ( #B4A0FF )*/
+.brand_text_accent_lb {color: rgb(0,188,242); }  /*light blue (#00BCF2 )*/
+.brand_text_accent_lt {color: rgb(0,178,148); } /* light teal (#00B294 )*/
+.brand_text_accent_lg {color: rgb(186,216,10); } /*light green ( #BAD80A )*/
+.brand_text_accent_ly {color: rgb(255,241,0); } /*light yellow (#FFF100 ) */
+.brand_text_accent_dr {color: rgb(168,0,0)} /*dark red (#A80000 ) */
+.brand_text_accent_dm {color: rgb(92,0,92)} /*dark magenta (#5C005C ) */
+.brand_text_accent_dp {color: rgb(50,20,90)} /*dark purple ( #32145A ) */
+.brand_text_accent_mb {color: rgb(0,24,143)} /*mid blue ( #00188F ) */
+.brand_text_accent_db {color: rgb(0,32,80)} /*dark blue ( #002050 ) */
+.brand_text_accent_dt {color: rgb(0,75,80)} /*dark teal  ( #004B50 ) */
+.brand_text_accent_dg {color: rgb(0,75,28)} /*dark green (#004B1C ) */
+.brand_text_accent_white {color: rgb(255,255,255);} /*white ( #FFFFFF ) */
+.brand_text_accent_lgray {color: rgb(210,210,210);} /*light gray (#D2D2D2 ) */
+.brand_text_accent_mgray {color: rgb(115,115,115)} /*mid gray ( #737373 ) */
+.brand_text_accent_dgray {color: rgb(80,80,80)} /*dark gray ( #505050 )*/
+.brand_text_accent_black {color: rgb(0,0,0)} /*rich black ( #000000 ) */
+
+/*fonts styles - Segoe UI Light, Segoe UI Regular, Segoe UI Semibold and Sego UI Bold*/
+
+h1.large_headline {font-family:'Segoe UI Light';font-size:36pt;line-height:120%;}
+.background_text_r {font-family: 'Segoe UI Regular'}
+.background_text_sb {font-family:'Segoe UI Semibold'}
+h2.subheading {font-family:'Segoe UI Semibold';font-size:20pt;line-height:110%;}
+
+
+body
+{ font-family:'Segoe UI';color:white;}
+
+/*Brand color overrides for images*/
+.brand_bg_yellow.tile img.showOnDark, .light_theme .brand_bg_yellow.tile img.showOnDark {display:none}
+.brand_bg_yellow.tile img.showOnLight ,.light_theme .brand_bg_yellow.tile img.showOnLight {display:inline-block;}
+
+.brand_bg_orange.tile img.showOnDark, .light_theme .brand_bg_orange.tile img.showOnDark {display:inline-block}
+.brand_bg_orange.tile img.showOnLight ,.light_theme .brand_bg_orange.tile img.showOnLight {display:none;}
+
+.brand_bg_red.tile img.showOnDark, .light_theme .brand_bg_red.tile img.showOnDark {display:inline-block}
+.brand_bg_red.tile img.showOnLight ,.light_theme .brand_bg_red.tile img.showOnLight {display:none;}
+
+.brand_bg_magenta.tile img.showOnDark, .light_theme .brand_bg_magenta.tile img.showOnDark {display:inline-block}
+.brand_bg_magenta.tile img.showOnLight ,.light_theme .brand_bg_magenta.tile img.showOnLight {display:none;}
+
+.brand_bg_purple.tile img.showOnDark, .light_theme .brand_bg_purple.tile img.showOnDark {display:inline-block}
+.brand_bg_purple.tile img.showOnLight ,.light_theme .brand_bg_purple.tile img.showOnLight {display:none;}
+
+.brand_bg_blue.tile img.showOnDark, .light_theme .brand_bg_blue.tile img.showOnDark {display:inline-block}
+.brand_bg_blue.tile img.showOnLight ,.light_theme .brand_bg_blue.tile img.showOnLight {display:none;}
+
+.brand_bg_teal.tile img.showOnDark, .light_theme.brand_bg_teal.tile img.showOnDark {display:inline-block}
+.brand_bg_teal.tile img.showOnLight ,.light_theme .brand_bg_teal.tile img.showOnLight {display:none;}
+
+.brand_bg_green.tile  img.showOnDark, .light_theme.brand_bg_teal.tile img.showOnDark {display:inline-block}
+.brand_bg_green.tile img.showOnLight ,.light_theme .brand_bg_green .tile img.showOnLight {display:none;}
+
+.brand_bg_purple a.expand:focus , .light_theme .brand_bg_purple a.expand:focus {outline-color: white !important}
+.brand_bg_orange a.expand:focus, .light_theme .brand_bg_orange a.expand:focus {outline-color: white !important}
+.brand_bg_red a.expand:focus, .light_theme .brand_bg_red a.expand:focus {outline-color: white !important}
+.brand_bg_magenta a.expand:focus, .light_theme .brand_bg_magenta a.expand:focus {outline-color: white !important}
+.brand_bg_blue a.expand:focus, .light_theme .brand_bg_blue a.expand:focus {outline-color: white !important}
+.brand_bg_teal a.expand:focus, .light_theme .brand_bg_teal a.expand:focus {outline-color: white !important}
+.brand_bg_green a.expand:focus, .light_theme .brand_bg_green a.expand:focus {outline-color: white !important}
+
+.blackonwhite .tile img.showOnDark, .light_theme.blackonwhite .img.showOnDark {display:none !important}
+.blackonwhite .tile img.showOnLight, .light_theme.blackonwhite .img.showOnLight {display:inline-block !important}
+
+.whiteonblack .tile img.showOnDark, .light_theme.whiteonblack .img.showOnDark {display:inline-block !important}
+.whiteonblack .tile img.showOnLight, .light_theme.whiteonblack .img.showOnLight {display:none !important}

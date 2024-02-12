@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.170" end="00:00:02.350">Using your computer</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:02.550" end="00:00:04.375">featuring the Windows
+10 operating system,</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:04.575" end="00:00:07.00">sometimes we may need to
+work and be productive,</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:07.200" end="00:00:09.160">and sometimes we may
+just want to have fun.</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:09.360" end="00:00:11.170">There are a variety
+of apps that we can</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:11.370" end="00:00:13.465">use depending on
+what we need to do.</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:13.665" end="00:00:16.285">Some apps come pre-installed
+on your computer</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:16.485" end="00:00:23.490">like Calculator or Notepad.</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:23.690" end="00:00:27.235">But you can also install
+new apps on your computer.</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:27.435" end="00:00:29.800">Using Windows 10,
+you can find and</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:30.00" end="00:00:32.770">install apps from
+the Microsoft Store app.</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:32.970" end="00:00:35.470">Let's open the
+Microsoft Store app.</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:35.670" end="00:00:38.240">We can find it in
+your Start menu.</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:38.440" end="00:00:43.980">If it isn't there, just
+type it in the search box.</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:44.180" end="00:00:48.605">Apps can be found here in
+the apps section of the store.</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:48.805" end="00:00:50.430">Think about apps as</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:50.630" end="00:00:53.130">tools which fall into
+different categories.</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:53.330" end="00:00:55.835">Featured apps will always
+appear at the top.</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:56.35" end="00:00:58.910">There are best selling apps,</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:59.110" end="00:01:01.985">top free and paid apps,</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:01:02.185" end="00:01:04.825">seasonal apps, et cetera.</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:01:05.25" end="00:01:09.134">At the bottom, you can
+filter apps by category.</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:01:09.334" end="00:01:11.70">Looking for an app
+so you can watch</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:01:11.270" end="00:01:13.260">sports or keep up with
+your favorite teams?</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:01:13.460" end="00:01:16.640">You can find it in
+the sports category.</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:01:16.840" end="00:01:18.750">An app to help you manage</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:18.950" end="00:01:20.835">your books or track
+your portfolio,</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:21.35" end="00:01:22.290">you will find those apps in</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:22.490" end="00:01:25.470">the personal finance category.</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:25.670" end="00:01:28.610">For instance,
+Microsoft Whiteboard</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:28.810" end="00:01:31.325">is an app I need on
+my computer for work.</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:31.525" end="00:01:33.205">To install it on my computer,</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:33.405" end="00:01:34.960">I just click on the app</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:35.160" end="00:01:38.215">and then within
+the app page, click "Get".</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:38.415" end="00:01:42.660">From there it will download</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:42.860" end="00:01:45.775">and install the app
+on my computer,</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:45.975" end="00:01:52.430">and then I'll be ready to work.</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:52.630" end="00:01:55.170">Certain types of files require</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:55.370" end="00:01:57.450">a certain type of
+application to open it.</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:57.650" end="00:01:59.160">Notice, when we attempt to open</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:59.360" end="00:02:02.370">a text file and
+select "Open with",</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:02:02.570" end="00:02:03.690">we have a handful of</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:02:03.890" end="00:02:06.635">text editing applications
+to choose from.</p>
+      <p xml:id="subtitle44" ttm:role="caption" begin="00:02:06.835" end="00:02:11.340">If we look at a photo
+and select "Open with",</p>
+      <p xml:id="subtitle45" ttm:role="caption" begin="00:02:11.540" end="00:02:14.370">we're presented with
+several applications to choose</p>
+      <p xml:id="subtitle46" ttm:role="caption" begin="00:02:14.570" end="00:02:17.555">from to either view
+the photo or edit the photo.</p>
+      <p xml:id="subtitle47" ttm:role="caption" begin="00:02:17.755" end="00:02:20.10">The "Open with" selection will be</p>
+      <p xml:id="subtitle48" ttm:role="caption" begin="00:02:20.210" end="00:02:24.560">different depending on the file
+you're looking to open.</p>
+      <p xml:id="subtitle49" ttm:role="caption" begin="00:02:24.760" end="00:02:27.210">Once you become
+familiar with the types</p>
+      <p xml:id="subtitle50" ttm:role="caption" begin="00:02:27.410" end="00:02:28.950">of apps you can use
+on your computer,</p>
+      <p xml:id="subtitle51" ttm:role="caption" begin="00:02:29.150" end="00:02:30.300">you will always have the tools</p>
+      <p xml:id="subtitle52" ttm:role="caption" begin="00:02:30.500" end="00:03:00.500">you need to get things done.</p>
+    </div>
+  </body>
+</tt>

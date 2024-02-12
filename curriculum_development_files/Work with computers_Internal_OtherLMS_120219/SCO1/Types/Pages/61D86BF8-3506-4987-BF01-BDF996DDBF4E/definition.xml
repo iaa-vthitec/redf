@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<type version="4.0" playbackSource="HTML" editorType="HTML" canSendCompletion="true">
+  <instance>
+    <languages>
+      <language name="neutral" />
+    </languages>
+  </instance>
+  <editor>
+    <languages>
+      <language name="neutral">
+        <name>Modern Tabs on Left</name>
+        <description>A Modern inspired information page with tabbed content. Tabs are aligned at left of content.</description>
+      </language>
+    </languages>
+  </editor>
+</type>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<types combined="true">
+  <category name="Information">
+    <type version="4.0" playbackSource="HTML" editorType="HTML" canSendCompletion="false" id="7ACE0D68-1B27-11DF-B58D-E97A56D89593">
+      <instance>
+        <languages>
+          <language name="neutral" />
+          <language name="ja" />
+          <language name="zh-cn" />
+        </languages>
+      </instance>
+      <editor>
+        <languages>
+          <language name="neutral">
+            <name>Information</name>
+            <description>An information page containing HTML-based content</description>
+          </language>
+        </languages>
+      </editor>
+    </type>
+  </category>
+  <category name="Tab">
+    <type version="4.0" playbackSource="HTML" editorType="HTML" canSendCompletion="true" id="6F09F622-B2F8-493C-8EC8-6B834B70EDED">
+      <instance>
+        <languages>
+          <language name="neutral" />
+        </languages>
+      </instance>
+      <editor>
+        <languages>
+          <language name="neutral">
+            <name>Modern Tabs on Top</name>
+            <description>A Modern inspired information page with tabbed content. Tabs are aligned at top of content.</description>
+          </language>
+        </languages>
+      </editor>
+    </type>
+    <type version="4.0" playbackSource="HTML" editorType="HTML" canSendCompletion="true" id="61D86BF8-3506-4987-BF01-BDF996DDBF4E">
+      <instance>
+        <languages>
+          <language name="neutral" />
+        </languages>
+      </instance>
+      <editor>
+        <languages>
+          <language name="neutral">
+            <name>Modern Tabs on Left</name>
+            <description>A Modern inspired information page with tabbed content. Tabs are aligned at left of content.</description>
+          </language>
+        </languages>
+      </editor>
+    </type>
+  </category>
+  <category name="Completion Pages">
+    <type version="4.0" playbackSource="HTML" behavior="MC" editorType="HTML" canSendCompletion="true" id="54434C22-4760-41D7-9D0E-92821CCF0258">
+      <instance>
+        <languages>
+          <language name="neutral" />
+          <language name="ja" />
+          <language name="zh-cn" />
+        </languages>
+      </instance>
+      <editor>
+        <languages>
+          <language name="neutral">
+            <name>Receive Credit</name>
+            <description>Displays the receive credit page</description>
+          </language>
+        </languages>
+      </editor>
+    </type>
+  </category>
+  <mediaManfiest>
+    <contents>
+      <videoPreferences>
+        <item required="yes" mediaPath="" LC="yes" PLC="yes" frameRate="29" frameSize="768x432" videoBitRate="500kbps" audioBitRate="48kbps" bufferingWindow="3" namingScheme="*.mp4" videoPlayerType="MP4" userDownload="true" uiLabel="VideoQualityMedium" notes="frame sizes, frame rates and aspect ratio can change to suite content (recorded demo vs. talking head)">MP4 (standard)</item>
+      </videoPreferences>
+      <videoContent>
+        <file name="01-what-is-a-computer.mp4" />
+        <file name="02-parts-of-a-computer.mp4" />
+        <file name="03-types-of-personal-computers.mp4" />
+        <file name="04-what-is-an-operating-system.mp4" />
+        <file name="05-get-to-know-operating-system.mp4" />
+        <file name="06-work-with-files-folders.mp4" />
+        <file name="07-understand-right-click.mp4" />
+        <file name="08-work-with-windows.mp4" />
+        <file name="09-personalize-your-desktop.mp4" />
+        <file name="10-cortana.mp4" />
+        <file name="11-use-accessablity-features.mp4" />
+        <file name="12-what-is-an-application.mp4" />
+        <file name="13-choose-the-right-app.mp4" />
+        <file name="14-working-with-apps.mp4" />
+        <file name="15-portable-storage-device.mp4" />
+        <file name="16-bluetooth-devices.mp4" />
+      </videoContent>
+    </contents>
+  </mediaManfiest>
+</types>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:03.170" end="00:00:05.500">As you use your computer,</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:05.700" end="00:00:06.940">you will usually work within</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:07.140" end="00:00:09.405">different views that
+we call windows,</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:09.605" end="00:00:12.700">in fact that's why
+we call it Windows.</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:12.900" end="00:00:15.790">In this video, we're going
+to explore what windows are</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:15.990" end="00:00:17.230">and how to use them within</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:17.430" end="00:00:19.445">the Windows 10 operating system.</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:19.645" end="00:00:22.315">Any application or
+program that we open</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:22.515" end="00:00:25.135">and view in the operating
+system is a window.</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:25.335" end="00:00:28.540">Here, I will open File Explorer.</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:28.740" end="00:00:30.925">That is a window.</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:31.125" end="00:00:34.60">I will open Microsoft
+Edge as well;</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:34.260" end="00:00:36.530">there is another window.</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:36.730" end="00:00:38.720">These two programs or</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:38.920" end="00:00:42.10">windows operate independently
+from each other.</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:42.210" end="00:00:44.400">They can be moved
+around anywhere you</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:44.600" end="00:00:46.740">want them to reside
+on your desktop.</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:46.940" end="00:00:48.450">This is pretty cool,</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:48.650" end="00:00:50.430">but it's just the beginning.</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:50.630" end="00:00:53.385">Sometimes whether
+you're in Word or</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:53.585" end="00:00:56.190">Microsoft Edge or
+any other application,</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:56.390" end="00:00:57.810">you may need the application</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:58.10" end="00:00:59.695">to take up the entire screen.</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:59.895" end="00:01:02.115">This is very easy to accomplish.</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:01:02.315" end="00:01:03.990">Inside your window, click on</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:01:04.190" end="00:01:07.115">the "Maximize" button
+in the top right.</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:07.315" end="00:01:10.160">Now the window takes
+up the entire screen.</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:10.360" end="00:01:12.840">If that's a little too
+large of a window,</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:13.40" end="00:01:14.490">you can return it
+to the size it was</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:14.690" end="00:01:17.635">before by clicking
+the "Restore" button.</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:17.835" end="00:01:19.710">Let's say I'm done tinkering with</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:19.910" end="00:01:21.650">the files in this folder for now,</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:21.850" end="00:01:23.460">but I need to have
+the files close</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:23.660" end="00:01:25.905">by because I will need
+one of these files later.</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:26.105" end="00:01:28.70">Instead of closing
+the window completely,</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:28.270" end="00:01:30.60">you can minimize the window by</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:30.260" end="00:01:33.20">clicking the "Minimize" button
+in the top right.</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:33.220" end="00:01:34.680">That will place the folder in</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:34.880" end="00:01:37.415">the taskbar at the bottom
+of the desktop.</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:37.615" end="00:01:40.685">To reopen or restore the window,</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:40.885" end="00:01:42.90">simply find the icon of</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:42.290" end="00:01:44.700">the window you
+minimized and click it.</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:01:44.900" end="00:01:48.00">Now here is where it
+gets interesting.</p>
+      <p xml:id="subtitle44" ttm:role="caption" begin="00:01:48.200" end="00:01:51.375">If I need to have two applications
+open at the same time,</p>
+      <p xml:id="subtitle45" ttm:role="caption" begin="00:01:51.575" end="00:01:54.150">let's say I'm researching
+and writing a report and I</p>
+      <p xml:id="subtitle46" ttm:role="caption" begin="00:01:54.350" end="00:01:56.975">need Microsoft Edge
+and Word open,</p>
+      <p xml:id="subtitle47" ttm:role="caption" begin="00:01:57.175" end="00:01:59.700">there is a very handy way to
+make sure they are open to</p>
+      <p xml:id="subtitle48" ttm:role="caption" begin="00:01:59.900" end="00:02:02.835">the same size and do
+not overlap each other.</p>
+      <p xml:id="subtitle49" ttm:role="caption" begin="00:02:03.35" end="00:02:10.700">Let's open Word and
+create a new document,</p>
+      <p xml:id="subtitle50" ttm:role="caption" begin="00:02:10.900" end="00:02:13.830">then click on the top
+of the window</p>
+      <p xml:id="subtitle51" ttm:role="caption" begin="00:02:14.30" end="00:02:16.685">and drag it to one side
+of the desktop.</p>
+      <p xml:id="subtitle52" ttm:role="caption" begin="00:02:16.885" end="00:02:19.325">Once you see the highlight here,</p>
+      <p xml:id="subtitle53" ttm:role="caption" begin="00:02:19.525" end="00:02:21.450">let go of the mouse button and</p>
+      <p xml:id="subtitle54" ttm:role="caption" begin="00:02:21.650" end="00:02:24.690">the window snaps to
+that half of the screen.</p>
+      <p xml:id="subtitle55" ttm:role="caption" begin="00:02:24.890" end="00:02:29.625">Let's now open Microsoft Edge and</p>
+      <p xml:id="subtitle56" ttm:role="caption" begin="00:02:29.825" end="00:02:34.560">drag it to the other side
+of the desktop and drop it.</p>
+      <p xml:id="subtitle57" ttm:role="caption" begin="00:02:34.760" end="00:02:36.930">Now, they both have</p>
+      <p xml:id="subtitle58" ttm:role="caption" begin="00:02:37.130" end="00:02:38.430">half the screen and it's</p>
+      <p xml:id="subtitle59" ttm:role="caption" begin="00:02:38.630" end="00:02:40.965">easy to go back and
+forth between them.</p>
+      <p xml:id="subtitle60" ttm:role="caption" begin="00:02:41.165" end="00:02:43.620">You can also use this method to</p>
+      <p xml:id="subtitle61" ttm:role="caption" begin="00:02:43.820" end="00:02:45.975">work between
+the two open windows.</p>
+      <p xml:id="subtitle62" ttm:role="caption" begin="00:02:46.175" end="00:02:48.100">Let me open two folders,</p>
+      <p xml:id="subtitle63" ttm:role="caption" begin="00:02:48.300" end="00:02:52.910">I will open files and place
+it over here to the right,</p>
+      <p xml:id="subtitle64" ttm:role="caption" begin="00:02:53.110" end="00:02:58.670">then I'll open more files
+and place it to the left.</p>
+      <p xml:id="subtitle65" ttm:role="caption" begin="00:02:58.870" end="00:03:02.730">I need to move some files
+from one folder to the other;</p>
+      <p xml:id="subtitle66" ttm:role="caption" begin="00:03:02.930" end="00:03:04.285">having both windows open,</p>
+      <p xml:id="subtitle67" ttm:role="caption" begin="00:03:04.485" end="00:03:06.40">makes this very easy.</p>
+      <p xml:id="subtitle68" ttm:role="caption" begin="00:03:06.240" end="00:03:08.340">Just drag and drop the files into</p>
+      <p xml:id="subtitle69" ttm:role="caption" begin="00:03:08.540" end="00:03:11.880">the other folder, it's that easy.</p>
+      <p xml:id="subtitle70" ttm:role="caption" begin="00:03:12.80" end="00:03:14.185">Knowing how to work with windows,</p>
+      <p xml:id="subtitle71" ttm:role="caption" begin="00:03:14.385" end="00:03:15.660">will make it easier for you to</p>
+      <p xml:id="subtitle72" ttm:role="caption" begin="00:03:15.860" end="00:03:45.860">get things done on your computer.</p>
+    </div>
+  </body>
+</tt>

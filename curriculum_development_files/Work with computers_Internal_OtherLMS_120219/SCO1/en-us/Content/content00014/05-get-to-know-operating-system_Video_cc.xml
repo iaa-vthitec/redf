@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.650" end="00:00:03.370">Windows 10 is
+the latest version of</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:03.570" end="00:00:05.140">Microsoft's operating system for</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:05.340" end="00:00:07.945">PCs and tablets as well
+as many other devices.</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:08.145" end="00:00:11.120">Windows comes pre-installed
+on most new devices.</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:11.320" end="00:00:13.30">In this video, we will explore</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:13.230" end="00:00:15.395">the basics of working
+with an operating system.</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:15.595" end="00:00:18.130">We'll use the Windows 10
+operating system for examples.</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:18.330" end="00:00:19.410">But these concepts carry</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:19.610" end="00:00:21.510">over to other
+operating systems too.</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:21.710" end="00:00:23.840">When you start up
+your Windows 10 device,</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:24.40" end="00:00:26.540">the first thing that will
+load is the operating system.</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:26.740" end="00:00:29.250">You will see a screen
+asking you to log in.</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:29.450" end="00:00:31.830">A device using Windows 10
+as the operating system</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:32.30" end="00:00:34.605">can be used by more than
+one person or user.</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:34.805" end="00:00:37.920">Each user would create
+their own username and password,</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:38.120" end="00:00:40.470">then use them to log into
+their profile and access</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:40.670" end="00:00:42.105">their own documents
+without seeing</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:42.305" end="00:00:44.325">other user's documents
+or profiles.</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:44.525" end="00:00:47.70">This allows each user to
+create their own profile</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:47.270" end="00:00:49.915">and personalize their experience
+the way they like.</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:50.115" end="00:00:51.960">For instance, imagine two users</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:52.160" end="00:00:54.150">that use the same
+Windows 10 computer.</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:54.350" end="00:00:57.390">One user might want their
+device language to be English.</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:57.590" end="00:00:58.980">While the other might like it to</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:00:59.180" end="00:01:00.900">be Arabic or another language.</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:01:01.100" end="00:01:04.325">This is possible with
+Windows 10 devices.</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:04.525" end="00:01:06.200">To log into your device,</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:06.400" end="00:01:07.680">simply enter the username and</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:07.880" end="00:01:09.790">password in the designated boxes.</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:09.990" end="00:01:12.555">If you've set up
+a personal identification number</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:12.755" end="00:01:14.520">or pin when you
+set up Windows 10,</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:14.720" end="00:01:15.960">you could use your pin</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:16.160" end="00:01:18.205">instead of your password
+when logging in.</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:18.405" end="00:01:19.830">Then click the arrow next to</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:20.30" end="00:01:22.170">the password box or
+simply press enter.</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:22.370" end="00:01:23.600">If you use your pin,</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:23.800" end="00:01:25.920">once the correct pin is
+entered successfully,</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:26.120" end="00:01:28.650">it will immediately take
+you to your desktop.</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:28.850" end="00:01:30.840">When you log into
+your Windows computer,</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:31.40" end="00:01:33.89">the first thing you
+see is your desktop.</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:33.289" end="00:01:35.845">Sort of like the desktop
+of an actual desk.</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:36.45" end="00:01:37.410">The desktop is where you</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:01:37.610" end="00:01:38.910">can put documents
+that you're currently</p>
+      <p xml:id="subtitle44" ttm:role="caption" begin="00:01:39.110" end="00:01:42.180">working on or documents that
+you need quick access to.</p>
+      <p xml:id="subtitle45" ttm:role="caption" begin="00:01:42.380" end="00:01:44.770">Windows allows you to customize
+the look of your desktop,</p>
+      <p xml:id="subtitle46" ttm:role="caption" begin="00:01:44.970" end="00:01:46.695">like the colors and
+the background image,</p>
+      <p xml:id="subtitle47" ttm:role="caption" begin="00:01:46.895" end="00:01:48.400">which is called the wallpaper.</p>
+      <p xml:id="subtitle48" ttm:role="caption" begin="00:01:48.600" end="00:01:50.295">That is why your device desktop</p>
+      <p xml:id="subtitle49" ttm:role="caption" begin="00:01:50.495" end="00:01:52.360">might look different
+than mine here.</p>
+      <p xml:id="subtitle50" ttm:role="caption" begin="00:01:52.560" end="00:01:56.145">At the bottom of the Windows
+10 desktop, is the taskbar.</p>
+      <p xml:id="subtitle51" ttm:role="caption" begin="00:01:56.345" end="00:01:58.910">It is a very important
+component of Windows 10.</p>
+      <p xml:id="subtitle52" ttm:role="caption" begin="00:01:59.110" end="00:02:02.330">Within the taskbar, you
+can accomplish many tasks,</p>
+      <p xml:id="subtitle53" ttm:role="caption" begin="00:02:02.530" end="00:02:03.810">such as using the taskbar</p>
+      <p xml:id="subtitle54" ttm:role="caption" begin="00:02:04.10" end="00:02:05.600">to know what apps
+are currently open,</p>
+      <p xml:id="subtitle55" ttm:role="caption" begin="00:02:05.800" end="00:02:09.330">finding out what time it
+is, managing your calendar,</p>
+      <p xml:id="subtitle56" ttm:role="caption" begin="00:02:09.530" end="00:02:11.489">pinning your favorite apps
+to the taskbar</p>
+      <p xml:id="subtitle57" ttm:role="caption" begin="00:02:11.689" end="00:02:13.710">so you can easily
+launch them and more.</p>
+      <p xml:id="subtitle58" ttm:role="caption" begin="00:02:13.910" end="00:02:16.250">Let's take a closer look
+at the taskbar.</p>
+      <p xml:id="subtitle59" ttm:role="caption" begin="00:02:16.450" end="00:02:19.520">On the far left, you will
+find the Start button.</p>
+      <p xml:id="subtitle60" ttm:role="caption" begin="00:02:19.720" end="00:02:21.460">When you click or
+tap this button,</p>
+      <p xml:id="subtitle61" ttm:role="caption" begin="00:02:21.660" end="00:02:23.40">it opens the Start menu.</p>
+      <p xml:id="subtitle62" ttm:role="caption" begin="00:02:23.240" end="00:02:24.690">The Start menu is where you can</p>
+      <p xml:id="subtitle63" ttm:role="caption" begin="00:02:24.890" end="00:02:26.250">find all the applications on</p>
+      <p xml:id="subtitle64" ttm:role="caption" begin="00:02:26.450" end="00:02:27.720">your device as well as</p>
+      <p xml:id="subtitle65" ttm:role="caption" begin="00:02:27.920" end="00:02:30.05">access functionalities
+like logging off,</p>
+      <p xml:id="subtitle66" ttm:role="caption" begin="00:02:30.205" end="00:02:32.985">restarting, and shutting
+down your device.</p>
+      <p xml:id="subtitle67" ttm:role="caption" begin="00:02:33.185" end="00:02:35.635">We'll revisit
+the Start menu shortly.</p>
+      <p xml:id="subtitle68" ttm:role="caption" begin="00:02:35.835" end="00:02:37.635">Right next to the Start button,</p>
+      <p xml:id="subtitle69" ttm:role="caption" begin="00:02:37.835" end="00:02:39.05">is the search box.</p>
+      <p xml:id="subtitle70" ttm:role="caption" begin="00:02:39.205" end="00:02:41.700">It allows you to search for
+applications by their name</p>
+      <p xml:id="subtitle71" ttm:role="caption" begin="00:02:41.900" end="00:02:44.725">or search for files and
+documents on your device.</p>
+      <p xml:id="subtitle72" ttm:role="caption" begin="00:02:44.925" end="00:02:46.290">Just start typing the name of</p>
+      <p xml:id="subtitle73" ttm:role="caption" begin="00:02:46.490" end="00:02:47.910">your application or document,</p>
+      <p xml:id="subtitle74" ttm:role="caption" begin="00:02:48.110" end="00:02:49.35">and you will find Windows</p>
+      <p xml:id="subtitle75" ttm:role="caption" begin="00:02:49.235" end="00:02:51.760">showing you results as you type.</p>
+      <p xml:id="subtitle76" ttm:role="caption" begin="00:02:51.960" end="00:02:54.810">You can also find
+a small microphone icon</p>
+      <p xml:id="subtitle77" ttm:role="caption" begin="00:02:55.10" end="00:02:56.755">at the right end
+of the search box.</p>
+      <p xml:id="subtitle78" ttm:role="caption" begin="00:02:56.955" end="00:03:01.110">This is Cortana.</p>
+      <p xml:id="subtitle79" ttm:role="caption" begin="00:03:01.310" end="00:03:04.490">This section of
+the taskbar has icons</p>
+      <p xml:id="subtitle80" ttm:role="caption" begin="00:03:04.690" end="00:03:06.980">for applications that are
+pinned to the taskbar,</p>
+      <p xml:id="subtitle81" ttm:role="caption" begin="00:03:07.180" end="00:03:08.840">as well as software
+applications that</p>
+      <p xml:id="subtitle82" ttm:role="caption" begin="00:03:09.40" end="00:03:11.215">are currently open or
+running on your device.</p>
+      <p xml:id="subtitle83" ttm:role="caption" begin="00:03:11.415" end="00:03:14.120">Running applications will
+have a visual line under</p>
+      <p xml:id="subtitle84" ttm:role="caption" begin="00:03:14.320" end="00:03:16.40">the application icon to</p>
+      <p xml:id="subtitle85" ttm:role="caption" begin="00:03:16.240" end="00:03:17.940">indicate that it's
+currently running.</p>
+      <p xml:id="subtitle86" ttm:role="caption" begin="00:03:18.140" end="00:03:20.180">You can customize this section by</p>
+      <p xml:id="subtitle87" ttm:role="caption" begin="00:03:20.380" end="00:03:29.520">removing or adding
+applications as you see fit.</p>
+      <p xml:id="subtitle88" ttm:role="caption" begin="00:03:29.720" end="00:03:32.415">Usually, applications you use</p>
+      <p xml:id="subtitle89" ttm:role="caption" begin="00:03:32.615" end="00:03:35.810">frequently are pinned to
+the taskbar for ease of access.</p>
+      <p xml:id="subtitle90" ttm:role="caption" begin="00:03:36.10" end="00:03:37.880">Microsoft Edge and Outlook are</p>
+      <p xml:id="subtitle91" ttm:role="caption" begin="00:03:38.80" end="00:03:39.230">good examples of programs that</p>
+      <p xml:id="subtitle92" ttm:role="caption" begin="00:03:39.430" end="00:03:41.520">are usually pinned
+to the taskbar.</p>
+      <p xml:id="subtitle93" ttm:role="caption" begin="00:03:41.720" end="00:03:44.690">The last section of the taskbar
+features the date and</p>
+      <p xml:id="subtitle94" ttm:role="caption" begin="00:03:44.890" end="00:03:47.60">time section and other icons</p>
+      <p xml:id="subtitle95" ttm:role="caption" begin="00:03:47.260" end="00:03:49.35">which vary from
+one device to another.</p>
+      <p xml:id="subtitle96" ttm:role="caption" begin="00:03:49.235" end="00:03:51.465">The clock will show you
+the current time and date.</p>
+      <p xml:id="subtitle97" ttm:role="caption" begin="00:03:51.665" end="00:03:52.935">If you click on the clock,</p>
+      <p xml:id="subtitle98" ttm:role="caption" begin="00:03:53.135" end="00:03:54.440">a window will open up revealing</p>
+      <p xml:id="subtitle99" ttm:role="caption" begin="00:03:54.640" end="00:03:56.360">your calendar for
+the current month.</p>
+      <p xml:id="subtitle100" ttm:role="caption" begin="00:03:56.560" end="00:03:58.910">Other icons in this section
+of the taskbar</p>
+      <p xml:id="subtitle101" ttm:role="caption" begin="00:03:59.110" end="00:04:00.980">include the speaker icon,</p>
+      <p xml:id="subtitle102" ttm:role="caption" begin="00:04:01.180" end="00:04:02.150">which allows you to adjust</p>
+      <p xml:id="subtitle103" ttm:role="caption" begin="00:04:02.350" end="00:04:03.965">the volume of your device sounds.</p>
+      <p xml:id="subtitle104" ttm:role="caption" begin="00:04:04.165" end="00:04:06.110">Click on this icon to
+adjust your volume</p>
+      <p xml:id="subtitle105" ttm:role="caption" begin="00:04:06.310" end="00:04:08.565">by moving the slider
+to the left or right.</p>
+      <p xml:id="subtitle106" ttm:role="caption" begin="00:04:08.765" end="00:04:11.150">The network icon which shows if</p>
+      <p xml:id="subtitle107" ttm:role="caption" begin="00:04:11.350" end="00:04:13.640">you are connected to
+the internet and Wi-Fi.</p>
+      <p xml:id="subtitle108" ttm:role="caption" begin="00:04:13.840" end="00:04:16.670">Clicking it will show you
+local wireless networks,</p>
+      <p xml:id="subtitle109" ttm:role="caption" begin="00:04:16.870" end="00:04:17.810">and right-clicking it gives</p>
+      <p xml:id="subtitle110" ttm:role="caption" begin="00:04:18.10" end="00:04:19.10">you the option to troubleshoot</p>
+      <p xml:id="subtitle111" ttm:role="caption" begin="00:04:19.210" end="00:04:20.390">your connection or open</p>
+      <p xml:id="subtitle112" ttm:role="caption" begin="00:04:20.590" end="00:04:22.250">the Network &amp;
+Internet settings.</p>
+      <p xml:id="subtitle113" ttm:role="caption" begin="00:04:22.450" end="00:04:24.405">If you have any
+windows notifications,</p>
+      <p xml:id="subtitle114" ttm:role="caption" begin="00:04:24.605" end="00:04:28.230">you can view them by clicking
+the notifications icon here.</p>
+      <p xml:id="subtitle115" ttm:role="caption" begin="00:04:28.430" end="00:04:31.20">You may also have other icons
+hidden away here,</p>
+      <p xml:id="subtitle116" ttm:role="caption" begin="00:04:31.220" end="00:04:33.855">so they don't clutter up
+the right side of your taskbar.</p>
+      <p xml:id="subtitle117" ttm:role="caption" begin="00:04:34.55" end="00:04:36.690">Click the arrow to view
+your hidden icons.</p>
+      <p xml:id="subtitle118" ttm:role="caption" begin="00:04:36.890" end="00:04:38.910">Let's move back over
+to the left and</p>
+      <p xml:id="subtitle119" ttm:role="caption" begin="00:04:39.110" end="00:04:41.565">explore the Start menu
+in a little more detail.</p>
+      <p xml:id="subtitle120" ttm:role="caption" begin="00:04:41.765" end="00:04:44.90">Clicking the Start button
+reveals the Start menu.</p>
+      <p xml:id="subtitle121" ttm:role="caption" begin="00:04:44.290" end="00:04:47.755">Here, a list of applications
+is listed on the left side,</p>
+      <p xml:id="subtitle122" ttm:role="caption" begin="00:04:47.955" end="00:04:50.775">while on the right you will
+see an arrangement of tiles.</p>
+      <p xml:id="subtitle123" ttm:role="caption" begin="00:04:50.975" end="00:04:53.10">Tiles are a concept
+that newer versions</p>
+      <p xml:id="subtitle124" ttm:role="caption" begin="00:04:53.210" end="00:04:54.990">of the Windows
+operating system use,</p>
+      <p xml:id="subtitle125" ttm:role="caption" begin="00:04:55.190" end="00:04:56.970">and they are meant to
+provide another easy way to</p>
+      <p xml:id="subtitle126" ttm:role="caption" begin="00:04:57.170" end="00:04:59.620">access your favorite
+applications quickly.</p>
+      <p xml:id="subtitle127" ttm:role="caption" begin="00:04:59.820" end="00:05:01.500">You can rearrange the tiles on</p>
+      <p xml:id="subtitle128" ttm:role="caption" begin="00:05:01.700" end="00:05:03.205">your Start menu very easily.</p>
+      <p xml:id="subtitle129" ttm:role="caption" begin="00:05:03.405" end="00:05:04.830">To move a tile, click and</p>
+      <p xml:id="subtitle130" ttm:role="caption" begin="00:05:05.30" end="00:05:07.530">drag it to the desired location.</p>
+      <p xml:id="subtitle131" ttm:role="caption" begin="00:05:07.730" end="00:05:10.100">To make a tile bigger or smaller,</p>
+      <p xml:id="subtitle132" ttm:role="caption" begin="00:05:10.300" end="00:05:11.535">right-click the tile,</p>
+      <p xml:id="subtitle133" ttm:role="caption" begin="00:05:11.735" end="00:05:16.15">select ''Resize'', then
+choose the desired size.</p>
+      <p xml:id="subtitle134" ttm:role="caption" begin="00:05:16.215" end="00:05:19.170">Located within the Start menu
+are options for quickly</p>
+      <p xml:id="subtitle135" ttm:role="caption" begin="00:05:19.370" end="00:05:22.165">accessing your documents
+and pictures,</p>
+      <p xml:id="subtitle136" ttm:role="caption" begin="00:05:22.365" end="00:05:25.220">as well as a quick way to
+open your Settings menu.</p>
+      <p xml:id="subtitle137" ttm:role="caption" begin="00:05:25.420" end="00:05:27.750">Also located here in
+the Start menu are</p>
+      <p xml:id="subtitle138" ttm:role="caption" begin="00:05:27.950" end="00:05:30.630">shortcuts to logging out
+of your Windows 10 device,</p>
+      <p xml:id="subtitle139" ttm:role="caption" begin="00:05:30.830" end="00:05:33.850">shutting down the device,
+or restarting it.</p>
+      <p xml:id="subtitle140" ttm:role="caption" begin="00:05:34.50" end="00:05:36.90">To log off your Windows device,</p>
+      <p xml:id="subtitle141" ttm:role="caption" begin="00:05:36.290" end="00:05:37.780">click the ''Start menu'',</p>
+      <p xml:id="subtitle142" ttm:role="caption" begin="00:05:37.980" end="00:05:39.210">click on your username or</p>
+      <p xml:id="subtitle143" ttm:role="caption" begin="00:05:39.410" end="00:05:41.995">avatar, and then
+click ''Sign out''.</p>
+      <p xml:id="subtitle144" ttm:role="caption" begin="00:05:42.195" end="00:05:44.450">One thing about signing
+out of Windows.</p>
+      <p xml:id="subtitle145" ttm:role="caption" begin="00:05:44.650" end="00:05:45.960">Signing out is different than</p>
+      <p xml:id="subtitle146" ttm:role="caption" begin="00:05:46.160" end="00:05:48.55">shutting down or turning
+off the computer.</p>
+      <p xml:id="subtitle147" ttm:role="caption" begin="00:05:48.255" end="00:05:50.145">Signing out keeps
+your device running</p>
+      <p xml:id="subtitle148" ttm:role="caption" begin="00:05:50.345" end="00:05:52.410">but signs you out of Windows 10.</p>
+      <p xml:id="subtitle149" ttm:role="caption" begin="00:05:52.610" end="00:05:53.910">After you log out, the computer</p>
+      <p xml:id="subtitle150" ttm:role="caption" begin="00:05:54.110" end="00:05:56.95">is ready for
+another user to log in.</p>
+      <p xml:id="subtitle151" ttm:role="caption" begin="00:05:56.295" end="00:05:58.440">Shutting down
+your computer simply means</p>
+      <p xml:id="subtitle152" ttm:role="caption" begin="00:05:58.640" end="00:06:00.370">you're completely turning
+off your computer,</p>
+      <p xml:id="subtitle153" ttm:role="caption" begin="00:06:00.570" end="00:06:03.210">like you turn off a television
+or another device.</p>
+      <p xml:id="subtitle154" ttm:role="caption" begin="00:06:03.410" end="00:06:05.670">It is important to shut down
+your computer correctly,</p>
+      <p xml:id="subtitle155" ttm:role="caption" begin="00:06:05.870" end="00:06:07.655">so you do not lose unsaved work.</p>
+      <p xml:id="subtitle156" ttm:role="caption" begin="00:06:07.855" end="00:06:09.810">It also allows
+the operating system and</p>
+      <p xml:id="subtitle157" ttm:role="caption" begin="00:06:10.10" end="00:06:12.860">applications to remain
+healthy and operate normally.</p>
+      <p xml:id="subtitle158" ttm:role="caption" begin="00:06:13.60" end="00:06:16.230">To shut down your computer
+click the Start menu</p>
+      <p xml:id="subtitle159" ttm:role="caption" begin="00:06:16.430" end="00:06:20.260">and choose ''Power'',
+then select ''Shutdown''.</p>
+      <p xml:id="subtitle160" ttm:role="caption" begin="00:06:20.460" end="00:06:23.10">Sometimes you will need
+to restart your computer,</p>
+      <p xml:id="subtitle161" ttm:role="caption" begin="00:06:23.210" end="00:06:25.200">like when a new application
+is finished installing on</p>
+      <p xml:id="subtitle162" ttm:role="caption" begin="00:06:25.400" end="00:06:27.620">your computer or when
+an update has been downloaded.</p>
+      <p xml:id="subtitle163" ttm:role="caption" begin="00:06:27.820" end="00:06:29.280">A restart is basically</p>
+      <p xml:id="subtitle164" ttm:role="caption" begin="00:06:29.480" end="00:06:30.540">a shutdown followed by</p>
+      <p xml:id="subtitle165" ttm:role="caption" begin="00:06:30.740" end="00:06:32.675">starting it back up
+all in one step.</p>
+      <p xml:id="subtitle166" ttm:role="caption" begin="00:06:32.875" end="00:06:34.110">Your device will prompt you</p>
+      <p xml:id="subtitle167" ttm:role="caption" begin="00:06:34.310" end="00:06:35.535">when it needs to be restarted.</p>
+      <p xml:id="subtitle168" ttm:role="caption" begin="00:06:35.735" end="00:06:38.585">To restart your device click
+on the ''Start'' button,</p>
+      <p xml:id="subtitle169" ttm:role="caption" begin="00:06:38.785" end="00:06:43.210">then choose ''Power'',
+then ''Restart''.</p>
+      <p xml:id="subtitle170" ttm:role="caption" begin="00:06:43.410" end="00:06:46.890">As you can see, there is a lot
+your operating system can</p>
+      <p xml:id="subtitle171" ttm:role="caption" begin="00:06:47.90" end="00:06:48.120">do for you so you can use</p>
+      <p xml:id="subtitle172" ttm:role="caption" begin="00:06:48.320" end="00:07:18.320">your computer to get things done.</p>
+    </div>
+  </body>
+</tt>

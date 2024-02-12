@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?access-control allow="*"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+  <head>
+    <ttm:title>Captions</ttm:title>
+    <metadata>
+      <ttm:copyright>
+        (c) Microsoft 2012, all rights reserved.
+      </ttm:copyright>
+    </metadata>
+    <styling>
+      <!-- s1 specifies default color, font, and text alignment -->
+      <style xml:id="s1" tts:color="white" tts:fontFamily="proportionalSansSerif" tts:fontSize="16px" tts:textAlign="center" />
+      <!-- alternative using yellow text but otherwise as style s1 -->
+      <style xml:id="s2" style="s1" tts:color="yellow" />
+      <!-- a style based on s1 but justified to the right -->
+      <style xml:id="s1Right" style="s1" tts:textAlign="end" />
+      <!-- a style based on s2 but justified to the left -->
+      <style xml:id="s2Left" style="s2" tts:textAlign="start" />
+    </styling>
+    <layout>
+      <region xml:id="subtitleArea" style="s1" tts:origin="0% 0%" tts:extent="100% 60px" tts:padding="3px 3px" tts:backgroundColor="black" tts:opacity="0.7" tts:displayAlign="center" tts:showBackground="whenActive" />
+    </layout>
+  </head>
+  <body>
+    <div region="subtitleArea">
+      <p xml:id="subtitle1" ttm:role="caption" begin="00:00:00.34" end="00:00:01.930">There may be</p>
+      <p xml:id="subtitle2" ttm:role="caption" begin="00:00:02.130" end="00:00:04.420">times when you are using
+your computer and you</p>
+      <p xml:id="subtitle3" ttm:role="caption" begin="00:00:04.620" end="00:00:06.550">realize that it may run
+out of storage space for</p>
+      <p xml:id="subtitle4" ttm:role="caption" begin="00:00:06.750" end="00:00:09.880">all the documents photos
+or music you're storing.</p>
+      <p xml:id="subtitle5" ttm:role="caption" begin="00:00:10.80" end="00:00:12.115">Or you may have a large file</p>
+      <p xml:id="subtitle6" ttm:role="caption" begin="00:00:12.315" end="00:00:13.300">you'd like to share
+with a friend or</p>
+      <p xml:id="subtitle7" ttm:role="caption" begin="00:00:13.500" end="00:00:17.30">family member nearby but
+the file is too large to email.</p>
+      <p xml:id="subtitle8" ttm:role="caption" begin="00:00:17.230" end="00:00:19.510">This is where portable
+storage devices like</p>
+      <p xml:id="subtitle9" ttm:role="caption" begin="00:00:19.710" end="00:00:21.445">flash drives or
+portable hard drives</p>
+      <p xml:id="subtitle10" ttm:role="caption" begin="00:00:21.645" end="00:00:23.335">can really come in handy.</p>
+      <p xml:id="subtitle11" ttm:role="caption" begin="00:00:23.535" end="00:00:26.940">Both flash drives, also
+referred to as thumb drives,</p>
+      <p xml:id="subtitle12" ttm:role="caption" begin="00:00:27.140" end="00:00:29.275">and portable hard drives
+connect to your computer</p>
+      <p xml:id="subtitle13" ttm:role="caption" begin="00:00:29.475" end="00:00:32.305">inserting them into an open
+USB port on your computer.</p>
+      <p xml:id="subtitle14" ttm:role="caption" begin="00:00:32.505" end="00:00:34.870">Usually, these are in
+the back of your computer,</p>
+      <p xml:id="subtitle15" ttm:role="caption" begin="00:00:35.70" end="00:00:36.715">but there may be
+one or more USB ports</p>
+      <p xml:id="subtitle16" ttm:role="caption" begin="00:00:36.915" end="00:00:38.610">on the front of
+your computer as well.</p>
+      <p xml:id="subtitle17" ttm:role="caption" begin="00:00:38.810" end="00:00:41.810">Flash drives have
+a USB input built-in.</p>
+      <p xml:id="subtitle18" ttm:role="caption" begin="00:00:42.10" end="00:00:45.225">So, they are inserted into
+the USB port of your computer,</p>
+      <p xml:id="subtitle19" ttm:role="caption" begin="00:00:45.425" end="00:00:46.845">while portable hard drives</p>
+      <p xml:id="subtitle20" ttm:role="caption" begin="00:00:47.45" end="00:00:48.480">usually connect to your computer</p>
+      <p xml:id="subtitle21" ttm:role="caption" begin="00:00:48.680" end="00:00:52.455">via a chord or wire into
+an available USB port.</p>
+      <p xml:id="subtitle22" ttm:role="caption" begin="00:00:52.655" end="00:00:55.180">When you connect a portable
+drive to your computer,</p>
+      <p xml:id="subtitle23" ttm:role="caption" begin="00:00:55.380" end="00:00:57.300">a File Explorer
+window will usually</p>
+      <p xml:id="subtitle24" ttm:role="caption" begin="00:00:57.500" end="00:01:00.800">open displaying the contents
+of the portable drive.</p>
+      <p xml:id="subtitle25" ttm:role="caption" begin="00:01:01.00" end="00:01:03.930">As you can see,
+your computer recognizes</p>
+      <p xml:id="subtitle26" ttm:role="caption" begin="00:01:04.130" end="00:01:05.430">the portable drive
+and treats it like</p>
+      <p xml:id="subtitle27" ttm:role="caption" begin="00:01:05.630" end="00:01:07.775">an additional hard drive
+on the computer.</p>
+      <p xml:id="subtitle28" ttm:role="caption" begin="00:01:07.975" end="00:01:09.400">Like I mentioned earlier,</p>
+      <p xml:id="subtitle29" ttm:role="caption" begin="00:01:09.600" end="00:01:11.820">these types of drives
+are perfect for storing</p>
+      <p xml:id="subtitle30" ttm:role="caption" begin="00:01:12.20" end="00:01:13.140">access media or sharing</p>
+      <p xml:id="subtitle31" ttm:role="caption" begin="00:01:13.340" end="00:01:15.855">a large file or files
+with someone else.</p>
+      <p xml:id="subtitle32" ttm:role="caption" begin="00:01:16.55" end="00:01:17.340">Moving files to and from</p>
+      <p xml:id="subtitle33" ttm:role="caption" begin="00:01:17.540" end="00:01:19.505">the portable drive
+is very simple.</p>
+      <p xml:id="subtitle34" ttm:role="caption" begin="00:01:19.705" end="00:01:22.890">First, move the portable drive
+File Explorer window</p>
+      <p xml:id="subtitle35" ttm:role="caption" begin="00:01:23.90" end="00:01:25.340">to one side of the screen.</p>
+      <p xml:id="subtitle36" ttm:role="caption" begin="00:01:25.540" end="00:01:27.570">Then, open the folder where</p>
+      <p xml:id="subtitle37" ttm:role="caption" begin="00:01:27.770" end="00:01:29.975">the file you'd like
+to share is located.</p>
+      <p xml:id="subtitle38" ttm:role="caption" begin="00:01:30.175" end="00:01:31.530">My sister has given me</p>
+      <p xml:id="subtitle39" ttm:role="caption" begin="00:01:31.730" end="00:01:33.300">a thumb drive and she
+would love to see</p>
+      <p xml:id="subtitle40" ttm:role="caption" begin="00:01:33.500" end="00:01:34.410">the video I recorded of</p>
+      <p xml:id="subtitle41" ttm:role="caption" begin="00:01:34.610" end="00:01:37.240">my son's first baseball game
+from earlier this season.</p>
+      <p xml:id="subtitle42" ttm:role="caption" begin="00:01:37.440" end="00:01:39.30">So, I find that video in</p>
+      <p xml:id="subtitle43" ttm:role="caption" begin="00:01:39.230" end="00:01:41.190">my FILES folder and</p>
+      <p xml:id="subtitle44" ttm:role="caption" begin="00:01:41.390" end="00:01:45.210">just drag and drop it into
+the portable drive folder.</p>
+      <p xml:id="subtitle45" ttm:role="caption" begin="00:01:45.410" end="00:01:48.630">Luckily for me, on
+her drive she has saved</p>
+      <p xml:id="subtitle46" ttm:role="caption" begin="00:01:48.830" end="00:01:51.360">a video of my niece's
+latest violin recital.</p>
+      <p xml:id="subtitle47" ttm:role="caption" begin="00:01:51.560" end="00:01:53.580">I can just select
+that file and drag it</p>
+      <p xml:id="subtitle48" ttm:role="caption" begin="00:01:53.780" end="00:01:58.700">into my FILES folder
+to view later.</p>
+      <p xml:id="subtitle49" ttm:role="caption" begin="00:01:58.900" end="00:02:02.40">Simple, right? Now, once</p>
+      <p xml:id="subtitle50" ttm:role="caption" begin="00:02:02.240" end="00:02:03.420">we're done with
+the portable drive,</p>
+      <p xml:id="subtitle51" ttm:role="caption" begin="00:02:03.620" end="00:02:04.440">we need to make sure to</p>
+      <p xml:id="subtitle52" ttm:role="caption" begin="00:02:04.640" end="00:02:06.605">remove it from
+the computer properly.</p>
+      <p xml:id="subtitle53" ttm:role="caption" begin="00:02:06.805" end="00:02:09.690">To do so, we simply right-click
+on the portable drive</p>
+      <p xml:id="subtitle54" ttm:role="caption" begin="00:02:09.890" end="00:02:14.250">in File Explorer
+and select "Eject".</p>
+      <p xml:id="subtitle55" ttm:role="caption" begin="00:02:14.450" end="00:02:16.470">Windows tells me it's safe to</p>
+      <p xml:id="subtitle56" ttm:role="caption" begin="00:02:16.670" end="00:02:18.730">remove the drive and I do so.</p>
+      <p xml:id="subtitle57" ttm:role="caption" begin="00:02:18.930" end="00:02:21.150">You can use portable
+storage devices like</p>
+      <p xml:id="subtitle58" ttm:role="caption" begin="00:02:21.350" end="00:02:23.790">thumb drives and portable hard
+drives to improve</p>
+      <p xml:id="subtitle59" ttm:role="caption" begin="00:02:23.990" end="00:02:24.960">the storage abilities of</p>
+      <p xml:id="subtitle60" ttm:role="caption" begin="00:02:25.160" end="00:02:27.60">your computer or transfer files</p>
+      <p xml:id="subtitle61" ttm:role="caption" begin="00:02:27.260" end="00:02:57.260">to another computer with ease.</p>
+    </div>
+  </body>
+</tt>
