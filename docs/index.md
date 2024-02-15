@@ -81,12 +81,3 @@ Also see - <a href="https://docs.github.com/en/repositories/creating-and-managin
 * copy contents of `site` directory into the `712dc7592fd9f87b4446d410d04846dae744c676` directory for access via (non-secure) login page
 * `deploy using GitHub Pages` - Follow documentation to host curriculum site on GitHub Pages: <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site"
                                    target="_blank">https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site</a>
-
-* `mkdocs serve` - Start the live-reloading docs server
-* `mkdocs build` - Build the documentation site
-* `mkdocs -h` - Print help message and exit
-
-## Deployment via GitHub Pages
-* `commit and push changes`
-* copy contents of `site` directory into the `712dc7592fd9f87b4446d410d04846dae744c676` directory for access via (non-secure) login page
-* `deploy using GitHub Pages` - Follow documentation to host curriculum site on GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
