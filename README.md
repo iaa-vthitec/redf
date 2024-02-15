@@ -4,6 +4,8 @@
 ## Project Overview
 Create a trauma-informed pre-apprenticeship curriculum to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. This curriculum includes two programs, Digital Literacy and Technical Skills. The Digital Literacy curriculum was designed to establish a foundation in using modern digital computing devices in a guided and approachable manor. The second program, Technical Skills builds on that foundation to provide students with the prerequisite skill set necessary to enter a Registered Apprenticeship Program in a technical computer support occupation. The instructional approach should prioritize best-practices in trauma-informed training. 
 
+Deployed on GitHub Pages: [](https://github.com/iaa-vthitec/redf.git)
+
 ## Objectives
 1. Develop study skills
 2. Improve typing skills
