@@ -5,6 +5,16 @@
 ## Project Overview
 Create a trauma-informed pre-apprenticeship curriculum to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. This curriculum includes two programs, Digital Literacy and Technical Skills. The Digital Literacy curriculum was designed to establish a foundation in using modern digital computing devices in a guided and approachable manor. The second program, Technical Skills builds on that foundation to provide students with the prerequisite skill set necessary to enter a Registered Apprenticeship Program in a technical computer support occupation. The instructional approach should prioritize best-practices in trauma-informed training. 
 
+## Curriculum Site
+Curriculum materials are available for viewing by the instructor at the following URL:
+<a href="https://iaa-vthitec.github.io/redf/"
+                                   target="_blank">https://iaa-vthitec.github.io/redf/</a>
+
+    Credentials: 
+    username=viewer
+    password=qijkAp-0gashu-cimriz
+
+
 ## Objectives
 1. Develop study skills
 2. Improve typing skills
@@ -44,20 +54,34 @@ Create a trauma-informed pre-apprenticeship curriculum to prepare program partic
 
 ## Repository Cloning
 
-* `github repository location` - https://github.com/iaa-vthitec/redf.git
+* `github repository location` - <a href="https://github.com/iaa-vthitec/redf.git"
+                                   target="_blank">https://github.com/iaa-vthitec/redf.git</a>
 * `explore and download individual files`
 * `Download ZIP ` - download entire project repository by clicking on the `Download ZIP` link from the `< > Code` button as shown in the following diagram: 
 
 ![github_download.png](img%2Fgithub_download.png)
 
-Also see - https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli
+Also see - <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli"
+                                   target="_blank">https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli</a>
 
 ## Project Files Development
 * `github version control` - Recommended to track file changes via GitHub
-* `recommended IDE` - PyCharm for Python development and local server deployment: https://www.jetbrains.com/pycharm/
-* `mkdocs used for documentation building` - see documentation: https://www.mkdocs.org
+* `recommended IDE` - PyCharm for Python development and local server deployment: <a href="https://www.jetbrains.com/pycharm/"
+                                   target="_blank">https://www.mkdocs.org</a>
+* `mkdocs used for documentation building` - see documentation: <a href="https://www.mkdocs.org"
+                                   target="_blank">https://www.mkdocs.org</a>
 * `mkdocs build` - Build the documentation site
 * `mkdocs -h` - Print help message and exit
+* `mkdocs serve` - Start the live-reloading docs server
+* `mkdocs build` - Build the documentation site
+* `mkdocs -h` - Print help message and exit
+
+## Deployment via GitHub Pages
+* `commit and push changes`
+* copy contents of `site` directory into the `712dc7592fd9f87b4446d410d04846dae744c676` directory for access via (non-secure) login page
+* `deploy using GitHub Pages` - Follow documentation to host curriculum site on GitHub Pages: <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site"
+                                   target="_blank">https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site</a>
+
 * `mkdocs serve` - Start the live-reloading docs server
 * `mkdocs build` - Build the documentation site
 * `mkdocs -h` - Print help message and exit
