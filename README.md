@@ -47,8 +47,6 @@ Create a trauma-informed pre-apprenticeship curriculum to prepare program partic
 * `explore and download individual files`
 * `Download ZIP ` - download entire project repository by clicking on the `Download ZIP` link from the `< > Code` button as shown in the following diagram: 
 
-![github_download.png](redf%2Fdocs%2Fimg%2Fgithub_download.png)
-
 Also see - https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli
 
 ## Project Files Development
