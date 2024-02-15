@@ -48,11 +48,13 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#objectives">Objectives</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#assumptions">Assumptions</a>
-    </li>
     <li class="toctree-l2"><a class="reference internal" href="#project-file-structure">Project File Structure</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#deployment">Deployment</a>
+    <li class="toctree-l2"><a class="reference internal" href="#repository-cloning">Repository Cloning</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-files-development">Project Files Development</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#deployment-via-github-pages">Deployment via GitHub Pages</a>
     </li>
     </ul>
                 </li>
@@ -105,44 +107,68 @@
 <hr>
 
 <h2 id="project-overview">Project Overview</h2>
-<p>Create a trauma-informed pre-apprenticeship curriculum to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. </p>
+<p>Create a trauma-informed pre-apprenticeship curriculum to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. This curriculum includes two programs, Digital Literacy and Technical Skills. The Digital Literacy curriculum was designed to establish a foundation in using modern digital computing devices in a guided and approachable manor. The second program, Technical Skills builds on that foundation to provide students with the prerequisite skill set necessary to enter a Registered Apprenticeship Program in a technical computer support occupation. The instructional approach should prioritize best-practices in trauma-informed training. </p>
 <h2 id="objectives">Objectives</h2>
 <ol>
 <li>Develop study skills</li>
-<li>Learn basic computer operations</li>
+<li>Improve typing skills</li>
+<li>Learn fundamental computer operations</li>
 <li>Familiarize participants with common business applications</li>
 <li>Enhance participant employability</li>
+<li>Expand technical vocabulary and comprehension</li>
+<li>Increase confidence in using technology</li>
+<li>Develop IT troubleshooting skills</li>
+<li>Create an awareness and appreciation of cybersecurity best practices</li>
+<li>Understand IT helpdesk functions and operations</li>
+<li>Establish a growth mindset with motivation for continuous learning</li>
 </ol>
 <hr>
 
-<h2 id="assumptions">Assumptions</h2>
-<ul>
-<li>Participants have access to a computer</li>
-<li>Participants have access to the Internet</li>
-</ul>
-<hr>
-
 <h2 id="project-file-structure">Project File Structure</h2>
-<pre><code>mkdocs.yml                  # The configuration file
+<pre><code>mkdocs.yml                                  # The configuration file
 docs/
-    index.md                # The project homepage
-    digital_literacy.md     # Digital Literacy Curriculum overview page
-    format.md               # Provides description of currciulum format
-    lessons.md              # Agends for digital literacy curriculum 
-    technical.md            # Home page for technical curriclum (TBD)
-    img/                    # Documentation image directory
-    file/                   # File directory for PDFs and other files
-    video/                  # Video source files directory
-    extra.css               # Custom CSS style rules
-    ...                     # Other markdown pages, images and other files.
+    index.md                                # The project homepage
+    digital_literacy.md                     # Digital Literacy Curriculum overview page
+    format.md                               # Provides description of currciulum format
+    lessons.md                              # Agends for digital literacy curriculum 
+    technical.md                            # Home page for technical curriclum (TBD)
+    img/                                    # Documentation image directory
+    file/                                   # File directory for PDFs and other files
+    file/DART_V1.0_Download                 # DART Curriculum original and edited files
+    file/Technical_Skills_Files             # Presentations and other curriculum files 
+    video/                                  # Video source files directory
+    extra.css                               # Custom CSS style rules
+    ...                                     # Other markdown pages, images and other files.
+712dc7592fd9f87b4446d410d04846dae744c676/   # Hashed directory name for login functionality
+site/                                       # `mkdocs build` application build target directory
+venv/                                       # virtual envvirontment, Python binaries
 </code></pre>
 <hr>
-<h2 id="deployment">Deployment</h2>
+
+<h2 id="repository-cloning">Repository Cloning</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><code>github repository location</code> - https://github.com/iaa-vthitec/redf.git</li>
+<li><code>explore and download individual files</code></li>
+<li><code>Download ZIP</code> - download entire project repository by clicking on the <code>Download ZIP</code> link from the <code>&lt; &gt; Code</code> button as shown in the following diagram: </li>
+</ul>
+<p><img alt="github_download.png" src="img/github_download.png" /></p>
+<p>Also see - https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli</p>
+<h2 id="project-files-development">Project Files Development</h2>
+<ul>
+<li><code>github version control</code> - Recommended to track file changes via GitHub</li>
+<li><code>recommended IDE</code> - PyCharm for Python development and local server deployment: https://www.jetbrains.com/pycharm/</li>
+<li><code>mkdocs used for documentation building</code> - see documentation: https://www.mkdocs.org</li>
+<li><code>mkdocs build</code> - Build the documentation site</li>
+<li><code>mkdocs -h</code> - Print help message and exit</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server</li>
+<li><code>mkdocs build</code> - Build the documentation site</li>
+<li><code>mkdocs -h</code> - Print help message and exit</li>
+</ul>
+<h2 id="deployment-via-github-pages">Deployment via GitHub Pages</h2>
+<ul>
+<li><code>commit and push changes</code></li>
+<li>copy contents of <code>site</code> directory into the <code>712dc7592fd9f87b4446d410d04846dae744c676</code> directory for access via (non-secure) login page</li>
+<li><code>deploy using GitHub Pages</code> - Follow documentation to host curriculum site on GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site</li>
 </ul>
               
             </div>
@@ -191,5 +217,5 @@ docs/
 
 <!--
 MkDocs version : 1.4.3
-Build Date UTC : 2024-02-12 00:49:34.155940+00:00
+Build Date UTC : 2024-02-15 22:23:24.437201+00:00
 -->
