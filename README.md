@@ -45,7 +45,8 @@ Deployed on GitHub Pages: [](https://github.com/iaa-vthitec/redf.git)
 
 ## Repository Cloning
 
-* `github repository location` - https://github.com/iaa-vthitec/redf.git
+* `github repository location` - <a href="https://github.com/iaa-vthitec/redf.git"
+                                   target="_blank">https://github.com/iaa-vthitec/redf.gitCommon</a>
 * `explore and download individual files`
 * `Download ZIP ` - download entire project repository by clicking on the `Download ZIP` link from the `< > Code` button as shown in the following diagram: 
 
