@@ -22,7 +22,7 @@ The DART curriculum provides the foundational English language and digital liter
 - Checking for/connecting to a wireless network and logging in and out of a computer.
 - Opening and closing an app from the desktop, taskbar, and the taskbar search bar.
 - Minimizing, maximizing, restoring down, moving, and resizing app windows.
-- Typing in a website address into a browser website address bar, using the scroll bar, and clicking on hyperlinked text and images.
+- Typing a website address into a browser website address bar, using the scroll bar, and clicking on hyperlinked text and images.
 - Practicing basic digital security by avoiding web page advertisements.
 - Performing a simple Internet search, clicking on a result, and returning to the search results
 using the browser back arrow.
@@ -39,7 +39,7 @@ account.
 
 <img src="../img/LinkedIn_Learning_logo.png">
 
-The digital learning platform selected for the self-study component is LinkedIn Learning. It is recommended to purchase account access to this platform for participants. However, if the budget does not permit this, there are digital literacy videos that Microsoft produced on LinkedIn Learning that are available without a subscription. I’ve used this platform for many years and appreciate the breadth and depth of content available on a range of topics (i.e., the subscription can be leveraged for other phases of the curriculum). 
+The digital learning platform selected for the self-study component is LinkedIn Learning. It is recommended to purchase account access to this platform for participants. However, if the budget does not permit this, there are digital literacy videos that Microsoft produced on LinkedIn Learning that are available without a subscription. This platform is known for its breadth and depth of content available on a range of topics (i.e., the subscription can be leveraged for other phases of the curriculum). 
 
 ***The selected videos are:***
 

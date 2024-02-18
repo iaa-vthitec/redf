@@ -3,12 +3,12 @@
 <hr>
 
 ## Project Overview
-Create a trauma-informed pre-apprenticeship curriculum to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. This curriculum includes two programs, Digital Literacy and Technical Skills. The Digital Literacy curriculum was designed to establish a foundation in using modern digital computing devices in a guided and approachable manor. The second program, Technical Skills builds on that foundation to provide students with the prerequisite skill set necessary to enter a Registered Apprenticeship Program in a technical computer support occupation. The instructional approach should prioritize best-practices in trauma-informed training. 
+Create a trauma-informed pre-apprenticeship curriculum to prepare program participants to enter a Registered Apprenticeship Program (RAP) with a sponsoring employer. This curriculum includes two programs, Digital Literacy and Technical Skills. The Digital Literacy curriculum was designed to establish a foundation in using modern digital computing devices in a guided and approachable manner. The second program, Technical Skills builds on that foundation to provide students with the prerequisite skill set necessary to enter a Registered Apprenticeship Program in a technical computer support occupation. The instructional approach should prioritize best-practices in trauma-informed training. 
 
 ## Curriculum Site
+
 Curriculum materials are available for viewing by the instructor at the following URL:
-<a href="https://iaa-vthitec.github.io/redf/"
-                                   target="_blank">https://iaa-vthitec.github.io/redf/</a>
+#### <a href="https://iaa-vthitec.github.io/redf/" target="_blank">https://iaa-vthitec.github.io/redf/</a>
 
     Credentials: 
     username=viewer
@@ -18,15 +18,15 @@ Curriculum materials are available for viewing by the instructor at the followin
 ## Objectives
 1. Develop study skills
 2. Improve typing skills
-2. Learn fundamental computer operations
-3. Familiarize participants with common business applications
-4. Enhance participant employability
-5. Expand technical vocabulary and comprehension
-6. Increase confidence in using technology
-7. Develop IT troubleshooting skills
-8. Create an awareness and appreciation of cybersecurity best practices
-9. Understand IT helpdesk functions and operations
-10. Establish a growth mindset with motivation for continuous learning
+3. Learn fundamental computer operations
+4. Familiarize participants with common business applications
+5. Enhance participant employability
+6. Expand technical vocabulary and comprehension
+7. Increase confidence in using technology
+8. Develop IT troubleshooting skills
+9. Create an awareness and appreciation of cybersecurity best practices
+10. Understand IT helpdesk functions and operations
+11. Establish a growth mindset with motivation for continuous learning
 
 <hr>
 
@@ -67,7 +67,7 @@ Also see - <a href="https://docs.github.com/en/repositories/creating-and-managin
 ## Project Files Development
 * `github version control` - Recommended to track file changes via GitHub
 * `recommended IDE` - PyCharm for Python development and local server deployment: <a href="https://www.jetbrains.com/pycharm/"
-                                   target="_blank">https://www.mkdocs.org</a>
+                                   target="_blank">https://www.jetbrains.com/pycharm/</a>
 * `mkdocs used for documentation building` - see documentation: <a href="https://www.mkdocs.org"
                                    target="_blank">https://www.mkdocs.org</a>
 * `mkdocs build` - Build the documentation site

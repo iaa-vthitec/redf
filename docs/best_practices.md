@@ -1,14 +1,14 @@
 <img src="../img/caring.jpg">
 
-## A Trauma-informed Instructional Approach
+## A Trauma-Informed Instructional Approach
 
 ---
 
 #### Working with Individuals Who Are/Were Incarcerated
 
-Individuals who have been incarcerated face significant barriers when considering reentry. What may be one of the biggest obstacles is the negative stigma associated with incarceration, regardless of the offense. That stigma follows individuals far beyond their release date. Most find it harder than their non-justice involved counterparts to find stable housing, employment opportunities, and other services. More often than not, individuals are reluctant to even reach out for support due to the intense social stigma around incarceration and their own lack of trust in the system. 
+Individuals who have been incarcerated face significant barriers when considering reentry. What may be one of the biggest obstacles is the negative stigma associated with incarceration, regardless of the offense. That stigma follows individuals far beyond their release date. Many find it harder than their non-justice involved counterparts to find stable housing, employment opportunities, and other services. Often, individuals are reluctant to even reach out for support due to the intense social stigma around incarceration and their own lack of trust in the system. 
 
-To best support this population, we need to educate ourselves, address our own biases, break down the stigma, and offer the types of support that will best foster resilience. 
+To best support this population, we need to educate ourselves, address our own biases, break down stigma, and offer the types of support that will foster resilience. 
 
 ---
 
@@ -44,23 +44,18 @@ The original ACE study was conducted from 1995-1997 with 17,000 individuals. The
 
 **Toxic Stress**
 
-Toxic stress is stress that is prolonged, severe, or chronic. When we experience toxic stress (ACEs) when we are young without a caring and supportive adult to help us, our immune systems don’t develop as they should, which leaves us more vulnerable to disease and chronic illness. 
-
-Toxic stress also weakens the architecture in areas of the brain that contribute to learning core life skills such as emotional regulation, impulse control, time management, and organization. Without these executive functioning skills, it’s much harder to succeed in the world. 
+Toxic stress is stress that is prolonged, severe, or chronic. It is often brought on by the experience of an adverse childhood experience. When we are young and we experience toxic stress without the support of a caring adult, we become vulnerable to a host of problems, some of which include changes in brain architecture, difficulties with executive functioning skills, and a weakened immune system, leading to disease and chronic illness.  
 
 **Epigenetics**
 
-The word epigenetics means “above” or “on top of” genetics. It refers to external modifications to DNA that turn genes on or off. These modifications do not change the DNA sequence, but instead they affect when and how cells “read” the genes. Epigenetics research demonstrates that environmental influences can quite literally affect the chemistry around our genes. 
-
-During development, our genes accumulate chemical markers that shape genetic expression. Experiences can rearrange epigenetic markers, determining if, and to what extent, genes will release the information they carry. Young brains are particularly sensitive to epigenetic adaptations. And they can be passed on to future generations.
-
+The word epigenetics means “above” or “on top of” genetics. It refers to the study of how behaviors and our environment can actually impact the way our genes work. 
 There was a study done where researchers paired the scent of cherry blossom with painful electric shocks. The lab rats in the study quickly learned to fear the scent of cherry blossom. Their brains responded by producing extra neurons in the scent-processing area, which went into overdrive to make them super-sensitive to smell. The surprising portion of the study was when their pups and their pups’ pups were also afraid of the scent of cherry blossom even though they were never exposed to the electric shock. **This study showed that we can be affected by trauma we didn't even experience.**
 
 Epigenetic adaptation is caused in response to experience. Epigenetics offers an explanation for how the negative effects of ACEs, poverty, cultural oppression, and racism can become sustained generational struggles. 
 
 **Resilience**
 
-You really can’t talk about ACEs and epigenetics without also discussing resilience. Strong, positive experiences can also be passed on through epigenetic adaptations. Healthy peer relationships, mentorship, routines and rituals, and mindfulness are a few examples of resilience factors that can help balance the scale. This is the magic of resilience and why we do the work we do.
+You really can’t talk about ACEs and epigenetics without also discussing resilience. Strong, positive experiences can also be passed on through epigenetic adaptations. Healthy peer relationships, mentorship, routines and rituals, and mindfulness are a few examples of resilience factors that can help balance the scale. This is the magic of resilience.
 
 **Interested in learning more?** 
 
@@ -89,7 +84,7 @@ This short video is aimed at educators. It re-frames trauma in terms of learning
 
 #### Addressing Stigma and Bias
 
-As stated previously, one of the biggest barriers for those reentering is the stigma surrounding incarceration. Our job as support people is to address our own internalized bias and work toward stigma reduction. An individual is much more than their mistakes.
+As stated previously, one of the biggest barriers for those reentering is the stigma surrounding incarceration. Our job is to address our own internalized bias and work toward stigma reduction. An individual is much more than their mistakes.
 
 **What is implicit bias?**
 
@@ -132,13 +127,13 @@ Avoid using the word "choice" when referring to the circumstances that led to a 
 
 Incarceration does not happen in a vacuum. When someone goes to prison, there is more than likely widespread impact on family members, children, friends, the larger community, etc. It’s important to consider what this impact might be like so that you can best support the individual as they prepare to return to the community. 
 
-Keep in mind, we cannot assume that solely supporting the individual incarcerated will be enough. Wraparound support and understanding will be much more effective in a positive reentry experience for both the individual and their family and children. Although our work is primarily in employment, we can be mindful of the larger picture. 
+Keep in mind, we cannot assume that solely supporting the individual incarcerated will be enough. Wraparound support and understanding will be much more effective in a positive reentry experience for both the individual and their family and children. Although our goals are primarily in employment, we can be mindful of the larger picture. 
 
 **Potential Impact**
 
 - Shifting roles and relationships - childcare, financial, emotional, or physical support may end when an individual serves time. This leaves family and friends at home to reorganize their support system. It may not look the same when an individual returns as when they left. This can be difficult to navigate for everyone involved. 
 - Financial well-being - families may be left struggling financially with one less paycheck to count on and they may see additional costs arise during the period of incarceration. For the individual nearing release, there may be child support payments, fines, restitution, etc. to consider.
-- Custody, guardianship, and care agreements - if the individual had children in their care prior to sentencing, other arrangements will have been made during the period of incarceration. This may mean someone has lost parental rights, it may mean there is a temporary care agreement in place, and it likely means there will be both legal ramifications and social ramifications that individual must navigate upon release. 
+- Custody, guardianship, and care agreements - if the individual had children in their care prior to sentencing, other arrangements will have been made during the period of incarceration. This may mean someone has lost parental rights, it may mean there is a temporary care agreement in place, and it likely means there will be both legal and social ramifications that individual must navigate upon release. 
 - Release and reentry - while returning home may feel like a very exciting thing, it comes with a host of complications and many things to consider. Depending on the type of release (furlough, parole, max-out, etc.) an individual may have conditions of release that they must consider when making decisions about living arrangements, job opportunities, interactions with family and friends, social engagements, etc.
 
 **Supports available:**

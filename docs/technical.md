@@ -22,7 +22,7 @@
 - Mobile Devices
 
 ## Digital Course Titles 
-LinkedIn Learning Course Title *(h:mm)*
+LinkedIn Learning Course Title
 
 - Networking Foundations: Networking Basics *(1:38)*
 - Computer Components and Peripherals for IT Technicians *(1:58)*
